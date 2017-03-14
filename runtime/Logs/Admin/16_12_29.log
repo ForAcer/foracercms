@@ -1,0 +1,2558 @@
+[ 2016-12-29T01:01:40+08:00 ] 120.25.92.58 /admin.rar
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+
+[ 2016-12-29T01:01:40+08:00 ] 120.25.92.58 /Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031291s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031291s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-29T01:01:40+08:00 ] 120.25.92.58 /admin.zip
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+
+[ 2016-12-29T01:01:40+08:00 ] 120.25.92.58 /Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-29T08:54:24+08:00 ] 183.15.252.188 /Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015631s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015631s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.031262s ]
+INFO: [ app_end ] --END-- [ RunTime:0.031262s ]
+
+[ 2016-12-29T08:54:24+08:00 ] 183.15.252.188 /Admin/Login/createVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-29T08:54:31+08:00 ] 183.15.252.188 /Admin/Login/loginCheck?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_admin` WHERE `username` = 'admin' AND `password` = '5eeab10287d949453b8e403c04675d8f' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_admin` WHERE `username` = 'admin' AND `password` = '5eeab10287d949453b8e403c04675d8f' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+
+[ 2016-12-29T08:54:32+08:00 ] 183.15.252.188 /Admin/Index/webinfo?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+SQL: SHOW COLUMNS FROM `cms_history` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_history` WHERE `ip` = '183.15.252.188' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_module` [ RunTime:0.0313s ]
+SQL: SELECT * FROM `cms_module` WHERE `is_del` = 0 AND `status` = 0  [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `cms_web_info` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_web_info` WHERE `id` = 1 AND `module_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_web_info` WHERE `id` = 1 AND `module_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: indexCurrent D:\wwwroot\system\runtime\Cache\Admin\15791eeda7b2c7792206c9413b3828fd.php 第 104 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\15791eeda7b2c7792206c9413b3828fd.php 第 121 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\15791eeda7b2c7792206c9413b3828fd.php 第 139 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\15791eeda7b2c7792206c9413b3828fd.php 第 121 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\15791eeda7b2c7792206c9413b3828fd.php 第 139 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\15791eeda7b2c7792206c9413b3828fd.php 第 156 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\15791eeda7b2c7792206c9413b3828fd.php 第 121 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\15791eeda7b2c7792206c9413b3828fd.php 第 139 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\15791eeda7b2c7792206c9413b3828fd.php 第 156 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\15791eeda7b2c7792206c9413b3828fd.php 第 121 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\15791eeda7b2c7792206c9413b3828fd.php 第 139 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\15791eeda7b2c7792206c9413b3828fd.php 第 156 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\15791eeda7b2c7792206c9413b3828fd.php 第 121 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\15791eeda7b2c7792206c9413b3828fd.php 第 139 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\15791eeda7b2c7792206c9413b3828fd.php 第 156 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\15791eeda7b2c7792206c9413b3828fd.php 第 121 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\15791eeda7b2c7792206c9413b3828fd.php 第 139 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\15791eeda7b2c7792206c9413b3828fd.php 第 121 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\15791eeda7b2c7792206c9413b3828fd.php 第 139 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\15791eeda7b2c7792206c9413b3828fd.php 第 121 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\15791eeda7b2c7792206c9413b3828fd.php 第 139 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\15791eeda7b2c7792206c9413b3828fd.php 第 156 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\15791eeda7b2c7792206c9413b3828fd.php 第 121 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\15791eeda7b2c7792206c9413b3828fd.php 第 139 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\15791eeda7b2c7792206c9413b3828fd.php 第 156 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\15791eeda7b2c7792206c9413b3828fd.php 第 121 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\15791eeda7b2c7792206c9413b3828fd.php 第 139 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\15791eeda7b2c7792206c9413b3828fd.php 第 156 行.
+NOTIC: [8] Undefined variable: moduleCurrent D:\wwwroot\system\runtime\Cache\Admin\15791eeda7b2c7792206c9413b3828fd.php 第 173 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Undefined variable: adminManageCurrent D:\wwwroot\system\runtime\Cache\Admin\15791eeda7b2c7792206c9413b3828fd.php 第 180 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031262s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031262s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-29T08:54:40+08:00 ] 183.15.252.188 /Admin/Index/navList?moduleId=2&moduleCode=nav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+SQL: SHOW COLUMNS FROM `cms_history` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_history` WHERE `ip` = '183.15.252.188' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_module` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_module` WHERE `is_del` = 0 AND `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_web_info` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_web_info` WHERE `id` = 1 AND `module_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_nav` WHERE `parent_id` = 0 AND `is_del` = 0 ORDER BY `sort` asc,`ctime` desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_nav` WHERE `is_del` = 0 ORDER BY `sort` asc,`ctime` desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: indexCurrent D:\wwwroot\system\runtime\Cache\Admin\c73a3cd0244094245dabdb16db5005cf.php 第 100 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Undefined variable: moduleCurrent D:\wwwroot\system\runtime\Cache\Admin\c73a3cd0244094245dabdb16db5005cf.php 第 169 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Undefined variable: adminManageCurrent D:\wwwroot\system\runtime\Cache\Admin\c73a3cd0244094245dabdb16db5005cf.php 第 176 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Undefined index: 1 D:\wwwroot\system\runtime\Cache\Admin\c73a3cd0244094245dabdb16db5005cf.php 第 222 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046893s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046893s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-29T08:54:42+08:00 ] 112.65.193.15 /Admin/Index/webinfo?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+
+[ 2016-12-29T08:54:42+08:00 ] 112.65.193.15 /Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015631s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015631s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-29T08:54:44+08:00 ] 183.15.252.188 /Admin/Index/listPage?moduleId=4&moduleCode=product
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+SQL: SHOW COLUMNS FROM `cms_history` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_history` WHERE `ip` = '183.15.252.188' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_module` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_module` WHERE `is_del` = 0 AND `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_web_info` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_web_info` WHERE `id` = 1 AND `module_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_module` WHERE `id` = 4 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_cate` [ RunTime:0.0469s ]
+SQL: SELECT * FROM `cms_cate` WHERE `module_id` = 4 AND `is_del` = 0 ORDER BY `sort` asc,`ctime` desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_list` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `cms_list` WHERE `module_id` = 4 AND `is_del` = 0 ORDER BY `ctime` desc,`sort` desc LIMIT 0,15   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_list` WHERE `module_id` = 4 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: indexCurrent D:\wwwroot\system\runtime\Cache\Admin\8ae9c2b716a177c3b6e5727e93469bbc.php 第 101 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Undefined variable: moduleCurrent D:\wwwroot\system\runtime\Cache\Admin\8ae9c2b716a177c3b6e5727e93469bbc.php 第 170 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Undefined variable: adminManageCurrent D:\wwwroot\system\runtime\Cache\Admin\8ae9c2b716a177c3b6e5727e93469bbc.php 第 177 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Undefined variable: pageBar D:\wwwroot\system\runtime\Cache\Admin\8ae9c2b716a177c3b6e5727e93469bbc.php 第 281 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046893s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046893s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-29T08:54:54+08:00 ] 101.226.66.178 /Admin/Index/listPage?moduleId=4&moduleCode=product
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+
+[ 2016-12-29T08:54:54+08:00 ] 101.226.66.178 /Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-29T08:55:20+08:00 ] 183.15.252.188 /Admin/Index/message?moduleId=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+SQL: SHOW COLUMNS FROM `cms_history` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_history` WHERE `ip` = '183.15.252.188' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_module` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_module` WHERE `is_del` = 0 AND `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_web_info` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_web_info` WHERE `id` = 1 AND `module_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_module` WHERE `id` = 6 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: indexCurrent D:\wwwroot\system\runtime\Cache\Admin\ff5ba23203c5df343b6a1043c35f7b86.php 第 101 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\ff5ba23203c5df343b6a1043c35f7b86.php 第 118 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\ff5ba23203c5df343b6a1043c35f7b86.php 第 136 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\ff5ba23203c5df343b6a1043c35f7b86.php 第 118 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\ff5ba23203c5df343b6a1043c35f7b86.php 第 136 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\ff5ba23203c5df343b6a1043c35f7b86.php 第 153 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\ff5ba23203c5df343b6a1043c35f7b86.php 第 118 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\ff5ba23203c5df343b6a1043c35f7b86.php 第 136 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\ff5ba23203c5df343b6a1043c35f7b86.php 第 153 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\ff5ba23203c5df343b6a1043c35f7b86.php 第 118 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\ff5ba23203c5df343b6a1043c35f7b86.php 第 136 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\ff5ba23203c5df343b6a1043c35f7b86.php 第 153 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\ff5ba23203c5df343b6a1043c35f7b86.php 第 118 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\ff5ba23203c5df343b6a1043c35f7b86.php 第 136 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\ff5ba23203c5df343b6a1043c35f7b86.php 第 153 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\ff5ba23203c5df343b6a1043c35f7b86.php 第 118 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\ff5ba23203c5df343b6a1043c35f7b86.php 第 136 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\ff5ba23203c5df343b6a1043c35f7b86.php 第 118 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\ff5ba23203c5df343b6a1043c35f7b86.php 第 136 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\ff5ba23203c5df343b6a1043c35f7b86.php 第 118 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\ff5ba23203c5df343b6a1043c35f7b86.php 第 136 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\ff5ba23203c5df343b6a1043c35f7b86.php 第 153 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\ff5ba23203c5df343b6a1043c35f7b86.php 第 118 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\ff5ba23203c5df343b6a1043c35f7b86.php 第 136 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\ff5ba23203c5df343b6a1043c35f7b86.php 第 153 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\ff5ba23203c5df343b6a1043c35f7b86.php 第 118 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\ff5ba23203c5df343b6a1043c35f7b86.php 第 136 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\ff5ba23203c5df343b6a1043c35f7b86.php 第 153 行.
+NOTIC: [8] Undefined variable: moduleCurrent D:\wwwroot\system\runtime\Cache\Admin\ff5ba23203c5df343b6a1043c35f7b86.php 第 170 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Undefined variable: adminManageCurrent D:\wwwroot\system\runtime\Cache\Admin\ff5ba23203c5df343b6a1043c35f7b86.php 第 177 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Undefined index: moduleId D:\wwwroot\system\runtime\Cache\Admin\ff5ba23203c5df343b6a1043c35f7b86.php 第 205 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046893s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046893s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-29T08:55:23+08:00 ] 183.15.252.188 /Admin/Index/resource?moduleId=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+SQL: SHOW COLUMNS FROM `cms_history` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_history` WHERE `ip` = '183.15.252.188' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_module` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_module` WHERE `is_del` = 0 AND `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_web_info` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_web_info` WHERE `id` = 1 AND `module_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_resource` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `cms_resource` WHERE `is_del` = 0 ORDER BY ctime desc LIMIT 0,50   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_resource` WHERE `is_del` = 0 ORDER BY ctime desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: indexCurrent D:\wwwroot\system\runtime\Cache\Admin\6416b88a5e7d192f9cd8204ab8a4ce37.php 第 102 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\6416b88a5e7d192f9cd8204ab8a4ce37.php 第 119 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\6416b88a5e7d192f9cd8204ab8a4ce37.php 第 137 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\6416b88a5e7d192f9cd8204ab8a4ce37.php 第 119 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\6416b88a5e7d192f9cd8204ab8a4ce37.php 第 137 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\6416b88a5e7d192f9cd8204ab8a4ce37.php 第 154 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\6416b88a5e7d192f9cd8204ab8a4ce37.php 第 119 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\6416b88a5e7d192f9cd8204ab8a4ce37.php 第 137 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\6416b88a5e7d192f9cd8204ab8a4ce37.php 第 154 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\6416b88a5e7d192f9cd8204ab8a4ce37.php 第 119 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\6416b88a5e7d192f9cd8204ab8a4ce37.php 第 137 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\6416b88a5e7d192f9cd8204ab8a4ce37.php 第 154 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\6416b88a5e7d192f9cd8204ab8a4ce37.php 第 119 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\6416b88a5e7d192f9cd8204ab8a4ce37.php 第 137 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\6416b88a5e7d192f9cd8204ab8a4ce37.php 第 154 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\6416b88a5e7d192f9cd8204ab8a4ce37.php 第 119 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\6416b88a5e7d192f9cd8204ab8a4ce37.php 第 137 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\6416b88a5e7d192f9cd8204ab8a4ce37.php 第 119 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\6416b88a5e7d192f9cd8204ab8a4ce37.php 第 137 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\6416b88a5e7d192f9cd8204ab8a4ce37.php 第 119 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\6416b88a5e7d192f9cd8204ab8a4ce37.php 第 137 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\6416b88a5e7d192f9cd8204ab8a4ce37.php 第 154 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\6416b88a5e7d192f9cd8204ab8a4ce37.php 第 119 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\6416b88a5e7d192f9cd8204ab8a4ce37.php 第 137 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\6416b88a5e7d192f9cd8204ab8a4ce37.php 第 154 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\6416b88a5e7d192f9cd8204ab8a4ce37.php 第 119 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\6416b88a5e7d192f9cd8204ab8a4ce37.php 第 137 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\6416b88a5e7d192f9cd8204ab8a4ce37.php 第 154 行.
+NOTIC: [8] Undefined variable: moduleCurrent D:\wwwroot\system\runtime\Cache\Admin\6416b88a5e7d192f9cd8204ab8a4ce37.php 第 171 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Undefined variable: adminManageCurrent D:\wwwroot\system\runtime\Cache\Admin\6416b88a5e7d192f9cd8204ab8a4ce37.php 第 178 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.015631s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageBar D:\wwwroot\system\runtime\Cache\Admin\6416b88a5e7d192f9cd8204ab8a4ce37.php 第 257 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-29T08:55:27+08:00 ] 183.15.252.188 /Admin/Index/resource?moduleId=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+SQL: SHOW COLUMNS FROM `cms_history` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_history` WHERE `ip` = '183.15.252.188' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_module` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_module` WHERE `is_del` = 0 AND `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_web_info` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_web_info` WHERE `id` = 1 AND `module_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_resource` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_resource` WHERE `is_del` = 0 ORDER BY ctime desc LIMIT 0,50   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_resource` WHERE `is_del` = 0 ORDER BY ctime desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: indexCurrent D:\wwwroot\system\runtime\Cache\Admin\6416b88a5e7d192f9cd8204ab8a4ce37.php 第 102 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\6416b88a5e7d192f9cd8204ab8a4ce37.php 第 119 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\6416b88a5e7d192f9cd8204ab8a4ce37.php 第 137 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\6416b88a5e7d192f9cd8204ab8a4ce37.php 第 119 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\6416b88a5e7d192f9cd8204ab8a4ce37.php 第 137 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\6416b88a5e7d192f9cd8204ab8a4ce37.php 第 154 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\6416b88a5e7d192f9cd8204ab8a4ce37.php 第 119 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\6416b88a5e7d192f9cd8204ab8a4ce37.php 第 137 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\6416b88a5e7d192f9cd8204ab8a4ce37.php 第 154 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\6416b88a5e7d192f9cd8204ab8a4ce37.php 第 119 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\6416b88a5e7d192f9cd8204ab8a4ce37.php 第 137 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\6416b88a5e7d192f9cd8204ab8a4ce37.php 第 154 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\6416b88a5e7d192f9cd8204ab8a4ce37.php 第 119 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\6416b88a5e7d192f9cd8204ab8a4ce37.php 第 137 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\6416b88a5e7d192f9cd8204ab8a4ce37.php 第 154 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\6416b88a5e7d192f9cd8204ab8a4ce37.php 第 119 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\6416b88a5e7d192f9cd8204ab8a4ce37.php 第 137 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\6416b88a5e7d192f9cd8204ab8a4ce37.php 第 119 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\6416b88a5e7d192f9cd8204ab8a4ce37.php 第 137 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\6416b88a5e7d192f9cd8204ab8a4ce37.php 第 119 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\6416b88a5e7d192f9cd8204ab8a4ce37.php 第 137 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\6416b88a5e7d192f9cd8204ab8a4ce37.php 第 154 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\6416b88a5e7d192f9cd8204ab8a4ce37.php 第 119 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\6416b88a5e7d192f9cd8204ab8a4ce37.php 第 137 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\6416b88a5e7d192f9cd8204ab8a4ce37.php 第 154 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\6416b88a5e7d192f9cd8204ab8a4ce37.php 第 119 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\6416b88a5e7d192f9cd8204ab8a4ce37.php 第 137 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\6416b88a5e7d192f9cd8204ab8a4ce37.php 第 154 行.
+NOTIC: [8] Undefined variable: moduleCurrent D:\wwwroot\system\runtime\Cache\Admin\6416b88a5e7d192f9cd8204ab8a4ce37.php 第 171 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Undefined variable: adminManageCurrent D:\wwwroot\system\runtime\Cache\Admin\6416b88a5e7d192f9cd8204ab8a4ce37.php 第 178 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageBar D:\wwwroot\system\runtime\Cache\Admin\6416b88a5e7d192f9cd8204ab8a4ce37.php 第 257 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-29T10:32:51+08:00 ] 183.15.252.188 /Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+
+[ 2016-12-29T10:32:51+08:00 ] 183.15.252.188 /Admin/Index/webinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+SQL: SHOW COLUMNS FROM `cms_history` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_history` WHERE `ip` = '183.15.252.188' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_module` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_module` WHERE `is_del` = 0 AND `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_web_info` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_web_info` WHERE `id` = 1 AND `module_id` = 1 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `cms_web_info` WHERE `id` = 1 AND `module_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: indexCurrent D:\wwwroot\system\runtime\Cache\Admin\15791eeda7b2c7792206c9413b3828fd.php 第 104 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\15791eeda7b2c7792206c9413b3828fd.php 第 121 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\15791eeda7b2c7792206c9413b3828fd.php 第 139 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\15791eeda7b2c7792206c9413b3828fd.php 第 121 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\15791eeda7b2c7792206c9413b3828fd.php 第 139 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\15791eeda7b2c7792206c9413b3828fd.php 第 156 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\15791eeda7b2c7792206c9413b3828fd.php 第 121 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\15791eeda7b2c7792206c9413b3828fd.php 第 139 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\15791eeda7b2c7792206c9413b3828fd.php 第 156 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\15791eeda7b2c7792206c9413b3828fd.php 第 121 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\15791eeda7b2c7792206c9413b3828fd.php 第 139 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\15791eeda7b2c7792206c9413b3828fd.php 第 156 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\15791eeda7b2c7792206c9413b3828fd.php 第 121 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\15791eeda7b2c7792206c9413b3828fd.php 第 139 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\15791eeda7b2c7792206c9413b3828fd.php 第 156 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\15791eeda7b2c7792206c9413b3828fd.php 第 121 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\15791eeda7b2c7792206c9413b3828fd.php 第 139 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\15791eeda7b2c7792206c9413b3828fd.php 第 121 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\15791eeda7b2c7792206c9413b3828fd.php 第 139 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\15791eeda7b2c7792206c9413b3828fd.php 第 121 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\15791eeda7b2c7792206c9413b3828fd.php 第 139 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\15791eeda7b2c7792206c9413b3828fd.php 第 156 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\15791eeda7b2c7792206c9413b3828fd.php 第 121 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\15791eeda7b2c7792206c9413b3828fd.php 第 139 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\15791eeda7b2c7792206c9413b3828fd.php 第 156 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\15791eeda7b2c7792206c9413b3828fd.php 第 121 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\15791eeda7b2c7792206c9413b3828fd.php 第 139 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\15791eeda7b2c7792206c9413b3828fd.php 第 156 行.
+NOTIC: [8] Undefined variable: moduleCurrent D:\wwwroot\system\runtime\Cache\Admin\15791eeda7b2c7792206c9413b3828fd.php 第 173 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Undefined variable: adminManageCurrent D:\wwwroot\system\runtime\Cache\Admin\15791eeda7b2c7792206c9413b3828fd.php 第 180 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015618s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015618s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-29T10:37:32+08:00 ] 183.15.252.188 /Admin/Login/cleanCacheFun?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+
+[ 2016-12-29T11:12:49+08:00 ] 183.15.252.188 /Admin/Index/listPage?moduleId=4&moduleCode=product
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+SQL: SHOW COLUMNS FROM `cms_history` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_history` WHERE `ip` = '183.15.252.188' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_module` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_module` WHERE `is_del` = 0 AND `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_web_info` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_web_info` WHERE `id` = 1 AND `module_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_module` WHERE `id` = 4 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `module_id` = 4 AND `is_del` = 0 ORDER BY `sort` asc,`ctime` desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_list` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `cms_list` WHERE `module_id` = 4 AND `is_del` = 0 ORDER BY `ctime` desc,`sort` desc LIMIT 0,15   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_list` WHERE `module_id` = 4 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: indexCurrent D:\wwwroot\system\runtime\Cache\Admin\8ae9c2b716a177c3b6e5727e93469bbc.php 第 101 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Undefined variable: moduleCurrent D:\wwwroot\system\runtime\Cache\Admin\8ae9c2b716a177c3b6e5727e93469bbc.php 第 170 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Undefined variable: adminManageCurrent D:\wwwroot\system\runtime\Cache\Admin\8ae9c2b716a177c3b6e5727e93469bbc.php 第 177 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Undefined variable: pageBar D:\wwwroot\system\runtime\Cache\Admin\8ae9c2b716a177c3b6e5727e93469bbc.php 第 281 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046853s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046853s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-29T11:12:51+08:00 ] 183.15.252.188 /Admin/Index/listEdit?moduleId=4&moduleCode=product
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+SQL: SHOW COLUMNS FROM `cms_history` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_history` WHERE `ip` = '183.15.252.188' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_module` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_module` WHERE `is_del` = 0 AND `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_web_info` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_web_info` WHERE `id` = 1 AND `module_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: listId D:\wwwroot\system\apps\Admin\Controller\IndexController.class.php 第 454 行.
+SQL: SELECT * FROM `cms_module` WHERE `id` = 4 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `module_id` = 4 AND `parent_id` = 0 AND `is_del` = 0 ORDER BY `sort` asc,`ctime` desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `module_id` = 4 AND `is_del` = 0 ORDER BY `sort` asc,`ctime` desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_module_field` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_module_field` WHERE `module_id` = 4 AND `is_del` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: indexCurrent D:\wwwroot\system\runtime\Cache\Admin\23a8beb28f4adab7220403b515fb39fc.php 第 101 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Undefined variable: moduleCurrent D:\wwwroot\system\runtime\Cache\Admin\23a8beb28f4adab7220403b515fb39fc.php 第 170 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Undefined variable: adminManageCurrent D:\wwwroot\system\runtime\Cache\Admin\23a8beb28f4adab7220403b515fb39fc.php 第 177 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Undefined variable: rs D:\wwwroot\system\runtime\Cache\Admin\23a8beb28f4adab7220403b515fb39fc.php 第 204 行.
+NOTIC: [8] Undefined variable: rs D:\wwwroot\system\runtime\Cache\Admin\23a8beb28f4adab7220403b515fb39fc.php 第 206 行.
+NOTIC: [8] Undefined variable: rs D:\wwwroot\system\runtime\Cache\Admin\23a8beb28f4adab7220403b515fb39fc.php 第 218 行.
+NOTIC: [8] Undefined variable: rs D:\wwwroot\system\runtime\Cache\Admin\23a8beb28f4adab7220403b515fb39fc.php 第 240 行.
+NOTIC: [8] Undefined variable: rs D:\wwwroot\system\runtime\Cache\Admin\23a8beb28f4adab7220403b515fb39fc.php 第 249 行.
+NOTIC: [8] Undefined variable: rs D:\wwwroot\system\runtime\Cache\Admin\23a8beb28f4adab7220403b515fb39fc.php 第 251 行.
+SQL: SHOW COLUMNS FROM `cms_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `code` = 'category1' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 12 AND `is_del` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: rs D:\wwwroot\system\runtime\Cache\Admin\23a8beb28f4adab7220403b515fb39fc.php 第 251 行.
+SQL: SELECT * FROM `cms_cate` WHERE `code` = 'category2' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 13 AND `is_del` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: rs D:\wwwroot\system\runtime\Cache\Admin\23a8beb28f4adab7220403b515fb39fc.php 第 251 行.
+SQL: SELECT * FROM `cms_cate` WHERE `code` = 'cate2' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 20 AND `is_del` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: rs D:\wwwroot\system\runtime\Cache\Admin\23a8beb28f4adab7220403b515fb39fc.php 第 252 行.
+NOTIC: [8] Undefined variable: rs D:\wwwroot\system\runtime\Cache\Admin\23a8beb28f4adab7220403b515fb39fc.php 第 260 行.
+NOTIC: [8] Undefined variable: rs D:\wwwroot\system\runtime\Cache\Admin\23a8beb28f4adab7220403b515fb39fc.php 第 264 行.
+NOTIC: [8] Undefined variable: rs D:\wwwroot\system\runtime\Cache\Admin\23a8beb28f4adab7220403b515fb39fc.php 第 268 行.
+NOTIC: [8] Undefined variable: rs D:\wwwroot\system\runtime\Cache\Admin\23a8beb28f4adab7220403b515fb39fc.php 第 275 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.046853s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015617s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015617s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: rs D:\wwwroot\system\runtime\Cache\Admin\23a8beb28f4adab7220403b515fb39fc.php 第 281 行.
+NOTIC: [8] Undefined variable: rs D:\wwwroot\system\runtime\Cache\Admin\23a8beb28f4adab7220403b515fb39fc.php 第 292 行.
+NOTIC: [8] Undefined variable: valueArr D:\wwwroot\system\runtime\Cache\Admin\23a8beb28f4adab7220403b515fb39fc.php 第 296 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.062471s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015618s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.015618s ]
+NOTIC: [8] Undefined variable: rs D:\wwwroot\system\runtime\Cache\Admin\23a8beb28f4adab7220403b515fb39fc.php 第 304 行.
+NOTIC: [8] Undefined variable: rs D:\wwwroot\system\runtime\Cache\Admin\23a8beb28f4adab7220403b515fb39fc.php 第 311 行.
+NOTIC: [8] Undefined variable: rs D:\wwwroot\system\runtime\Cache\Admin\23a8beb28f4adab7220403b515fb39fc.php 第 318 行.
+NOTIC: [8] Undefined variable: rs D:\wwwroot\system\runtime\Cache\Admin\23a8beb28f4adab7220403b515fb39fc.php 第 325 行.
+NOTIC: [8] Undefined variable: rs D:\wwwroot\system\runtime\Cache\Admin\23a8beb28f4adab7220403b515fb39fc.php 第 332 行.
+NOTIC: [8] Undefined variable: rs D:\wwwroot\system\runtime\Cache\Admin\23a8beb28f4adab7220403b515fb39fc.php 第 339 行.
+NOTIC: [8] Undefined variable: rs D:\wwwroot\system\runtime\Cache\Admin\23a8beb28f4adab7220403b515fb39fc.php 第 346 行.
+NOTIC: [8] Undefined variable: rs D:\wwwroot\system\runtime\Cache\Admin\23a8beb28f4adab7220403b515fb39fc.php 第 353 行.
+NOTIC: [8] Undefined variable: rs D:\wwwroot\system\runtime\Cache\Admin\23a8beb28f4adab7220403b515fb39fc.php 第 360 行.
+NOTIC: [8] Undefined variable: rs D:\wwwroot\system\runtime\Cache\Admin\23a8beb28f4adab7220403b515fb39fc.php 第 367 行.
+NOTIC: [8] Undefined variable: rs D:\wwwroot\system\runtime\Cache\Admin\23a8beb28f4adab7220403b515fb39fc.php 第 376 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015618s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.015618s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-29T11:12:57+08:00 ] 183.15.252.188 /Admin/Index/listCateNavBox?linkUrlId=link_url&_=1482981170248
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+SQL: SHOW COLUMNS FROM `cms_history` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_history` WHERE `ip` = '183.15.252.188' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_module` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_module` WHERE `is_del` = 0 AND `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_web_info` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_web_info` WHERE `id` = 1 AND `module_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_cate` [ RunTime:0.0156s ]
+NOTIC: [8] Undefined variable: moduleId D:\wwwroot\system\apps\Admin\Controller\IndexController.class.php 第 574 行.
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 0 AND `is_del` = 0 ORDER BY `sort` asc,`ctime` desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: moduleId D:\wwwroot\system\apps\Admin\Controller\IndexController.class.php 第 575 行.
+SQL: SELECT * FROM `cms_cate` WHERE `is_del` = 0 ORDER BY `sort` asc,`ctime` desc  [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: 21 D:\wwwroot\system\runtime\Cache\Admin\4f5640e8f277e7bac203de230e346efe.php 第 15 行.
+NOTIC: [8] Undefined index: 4 D:\wwwroot\system\runtime\Cache\Admin\4f5640e8f277e7bac203de230e346efe.php 第 15 行.
+SQL: SHOW COLUMNS FROM `cms_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `code` = 'companynews' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 8 AND `is_del` = 0 ORDER BY `sort` asc  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `cms_cate` WHERE `code` = 'industrynews' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 9 AND `is_del` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `code` = 'problemnews' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 10 AND `is_del` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `code` = 'category1' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 12 AND `is_del` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `code` = 'category2' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 13 AND `is_del` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `code` = 'cate2' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 20 AND `is_del` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: 24 D:\wwwroot\system\runtime\Cache\Admin\4f5640e8f277e7bac203de230e346efe.php 第 15 行.
+NOTIC: [8] Undefined index: 1 D:\wwwroot\system\runtime\Cache\Admin\4f5640e8f277e7bac203de230e346efe.php 第 15 行.
+SQL: SELECT * FROM `cms_cate` WHERE `code` = 'newcases' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 15 AND `is_del` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `code` = 'typicalcases' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 16 AND `is_del` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `code` = 'downpic' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 18 AND `is_del` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `code` = 'downdoc' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 19 AND `is_del` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031236s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031236s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-29T11:13:01+08:00 ] 112.65.193.13 /Admin/Index/listEdit?moduleId=4&moduleCode=product
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+
+[ 2016-12-29T11:13:01+08:00 ] 112.65.193.13 /Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031236s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031236s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-29T11:13:06+08:00 ] 183.15.252.188 /Admin/Index/listMsgNavBox?linkUrlId=link_url&_=1482981170249
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+SQL: SHOW COLUMNS FROM `cms_history` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_history` WHERE `ip` = '183.15.252.188' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_module` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_module` WHERE `is_del` = 0 AND `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_web_info` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_web_info` WHERE `id` = 1 AND `module_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_cate` [ RunTime:0.0156s ]
+SQL: SELECT `id`,`title`,`code` FROM `cms_cate` WHERE `is_del` = 0 ORDER BY `sort` asc,`ctime` desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_list` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`cate_id`,`title` FROM `cms_list` WHERE `is_del` = 0 ORDER BY `ctime` desc,`sort` desc LIMIT 0,15   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_list` WHERE `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageBar D:\wwwroot\system\runtime\Cache\Admin\5a372e5ae6da2c72b383feb549c8eadf.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015618s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015618s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-29T11:13:07+08:00 ] 101.226.33.216 /Admin/Index/listCateNavBox?linkUrlId=link_url&_=1482981170248
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+
+[ 2016-12-29T11:13:07+08:00 ] 101.226.33.216 /Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015618s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015618s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-29T11:13:08+08:00 ] 183.15.252.188 /Admin/Index/listMsgNavBox?linkUrlId=link_url&_=1482981170250
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+SQL: SHOW COLUMNS FROM `cms_history` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_history` WHERE `ip` = '183.15.252.188' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_module` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_module` WHERE `is_del` = 0 AND `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_web_info` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_web_info` WHERE `id` = 1 AND `module_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_cate` [ RunTime:0.0156s ]
+SQL: SELECT `id`,`title`,`code` FROM `cms_cate` WHERE `is_del` = 0 ORDER BY `sort` asc,`ctime` desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_list` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`cate_id`,`title` FROM `cms_list` WHERE `is_del` = 0 ORDER BY `ctime` desc,`sort` desc LIMIT 0,15   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_list` WHERE `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageBar D:\wwwroot\system\runtime\Cache\Admin\5a372e5ae6da2c72b383feb549c8eadf.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015618s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015618s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-29T11:13:11+08:00 ] 183.15.252.188 /Admin/Index/listCateNavBox?linkUrlId=link_url&_=1482981170251
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+SQL: SHOW COLUMNS FROM `cms_history` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_history` WHERE `ip` = '183.15.252.188' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_module` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_module` WHERE `is_del` = 0 AND `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_web_info` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_web_info` WHERE `id` = 1 AND `module_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_cate` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: moduleId D:\wwwroot\system\apps\Admin\Controller\IndexController.class.php 第 574 行.
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 0 AND `is_del` = 0 ORDER BY `sort` asc,`ctime` desc  [ RunTime:0.0156s ]
+NOTIC: [8] Undefined variable: moduleId D:\wwwroot\system\apps\Admin\Controller\IndexController.class.php 第 575 行.
+SQL: SELECT * FROM `cms_cate` WHERE `is_del` = 0 ORDER BY `sort` asc,`ctime` desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: 21 D:\wwwroot\system\runtime\Cache\Admin\4f5640e8f277e7bac203de230e346efe.php 第 15 行.
+NOTIC: [8] Undefined index: 4 D:\wwwroot\system\runtime\Cache\Admin\4f5640e8f277e7bac203de230e346efe.php 第 15 行.
+SQL: SHOW COLUMNS FROM `cms_cate` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `cms_cate` WHERE `code` = 'companynews' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 8 AND `is_del` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `code` = 'industrynews' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 9 AND `is_del` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `code` = 'problemnews' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 10 AND `is_del` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `code` = 'category1' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 12 AND `is_del` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `code` = 'category2' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 13 AND `is_del` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `code` = 'cate2' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 20 AND `is_del` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: 24 D:\wwwroot\system\runtime\Cache\Admin\4f5640e8f277e7bac203de230e346efe.php 第 15 行.
+NOTIC: [8] Undefined index: 1 D:\wwwroot\system\runtime\Cache\Admin\4f5640e8f277e7bac203de230e346efe.php 第 15 行.
+SQL: SELECT * FROM `cms_cate` WHERE `code` = 'newcases' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 15 AND `is_del` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `code` = 'typicalcases' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 16 AND `is_del` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `code` = 'downpic' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 18 AND `is_del` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `code` = 'downdoc' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 19 AND `is_del` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046853s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046853s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-29T11:13:16+08:00 ] 180.153.214.190 /Admin/Index/listMsgNavBox?linkUrlId=link_url&_=1482981170249
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+
+[ 2016-12-29T11:13:17+08:00 ] 183.15.252.188 /Admin/Index/listCateNavBox?linkUrlId=link_url&_=1482981170252
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+SQL: SHOW COLUMNS FROM `cms_history` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_history` WHERE `ip` = '183.15.252.188' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_module` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_module` WHERE `is_del` = 0 AND `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_web_info` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_web_info` WHERE `id` = 1 AND `module_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_cate` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: moduleId D:\wwwroot\system\apps\Admin\Controller\IndexController.class.php 第 574 行.
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 0 AND `is_del` = 0 ORDER BY `sort` asc,`ctime` desc  [ RunTime:0.0156s ]
+NOTIC: [8] Undefined variable: moduleId D:\wwwroot\system\apps\Admin\Controller\IndexController.class.php 第 575 行.
+SQL: SELECT * FROM `cms_cate` WHERE `is_del` = 0 ORDER BY `sort` asc,`ctime` desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: 21 D:\wwwroot\system\runtime\Cache\Admin\4f5640e8f277e7bac203de230e346efe.php 第 15 行.
+NOTIC: [8] Undefined index: 4 D:\wwwroot\system\runtime\Cache\Admin\4f5640e8f277e7bac203de230e346efe.php 第 15 行.
+SQL: SHOW COLUMNS FROM `cms_cate` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `cms_cate` WHERE `code` = 'companynews' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 8 AND `is_del` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `code` = 'industrynews' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 9 AND `is_del` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `code` = 'problemnews' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 10 AND `is_del` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `code` = 'category1' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 12 AND `is_del` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `code` = 'category2' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 13 AND `is_del` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `code` = 'cate2' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 20 AND `is_del` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: 24 D:\wwwroot\system\runtime\Cache\Admin\4f5640e8f277e7bac203de230e346efe.php 第 15 行.
+NOTIC: [8] Undefined index: 1 D:\wwwroot\system\runtime\Cache\Admin\4f5640e8f277e7bac203de230e346efe.php 第 15 行.
+SQL: SELECT * FROM `cms_cate` WHERE `code` = 'newcases' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 15 AND `is_del` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `code` = 'typicalcases' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 16 AND `is_del` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `code` = 'downpic' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 18 AND `is_del` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `code` = 'downdoc' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 19 AND `is_del` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015618s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015618s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-29T11:13:18+08:00 ] 101.226.89.123 /Admin/Index/listMsgNavBox?linkUrlId=link_url&_=1482981170250
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+
+[ 2016-12-29T11:13:18+08:00 ] 101.226.89.123 /Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015618s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-29T11:13:21+08:00 ] 101.226.89.121 /Admin/Index/listCateNavBox?linkUrlId=link_url&_=1482981170251
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+
+[ 2016-12-29T11:13:21+08:00 ] 101.226.89.121 /Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015618s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015618s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-29T11:13:22+08:00 ] 183.15.252.188 /Admin/Index/listCateNavBox?linkUrlId=link_url&_=1482981170253
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+SQL: SHOW COLUMNS FROM `cms_history` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_history` WHERE `ip` = '183.15.252.188' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_module` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_module` WHERE `is_del` = 0 AND `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_web_info` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_web_info` WHERE `id` = 1 AND `module_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_cate` [ RunTime:0.0312s ]
+NOTIC: [8] Undefined variable: moduleId D:\wwwroot\system\apps\Admin\Controller\IndexController.class.php 第 574 行.
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 0 AND `is_del` = 0 ORDER BY `sort` asc,`ctime` desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: moduleId D:\wwwroot\system\apps\Admin\Controller\IndexController.class.php 第 575 行.
+SQL: SELECT * FROM `cms_cate` WHERE `is_del` = 0 ORDER BY `sort` asc,`ctime` desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: 21 D:\wwwroot\system\runtime\Cache\Admin\4f5640e8f277e7bac203de230e346efe.php 第 15 行.
+NOTIC: [8] Undefined index: 4 D:\wwwroot\system\runtime\Cache\Admin\4f5640e8f277e7bac203de230e346efe.php 第 15 行.
+SQL: SHOW COLUMNS FROM `cms_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `code` = 'companynews' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 8 AND `is_del` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `code` = 'industrynews' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 9 AND `is_del` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `code` = 'problemnews' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 10 AND `is_del` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `code` = 'category1' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 12 AND `is_del` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `code` = 'category2' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 13 AND `is_del` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `code` = 'cate2' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 20 AND `is_del` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: 24 D:\wwwroot\system\runtime\Cache\Admin\4f5640e8f277e7bac203de230e346efe.php 第 15 行.
+NOTIC: [8] Undefined index: 1 D:\wwwroot\system\runtime\Cache\Admin\4f5640e8f277e7bac203de230e346efe.php 第 15 行.
+SQL: SELECT * FROM `cms_cate` WHERE `code` = 'newcases' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 15 AND `is_del` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `code` = 'typicalcases' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 16 AND `is_del` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `code` = 'downpic' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 18 AND `is_del` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `code` = 'downdoc' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 19 AND `is_del` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031236s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031236s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-29T11:13:25+08:00 ] 183.15.252.188 /Admin/Index/listCateNavBox?linkUrlId=link_url&_=1482981170254
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+SQL: SHOW COLUMNS FROM `cms_history` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_history` WHERE `ip` = '183.15.252.188' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_module` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_module` WHERE `is_del` = 0 AND `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_web_info` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `cms_web_info` WHERE `id` = 1 AND `module_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_cate` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: moduleId D:\wwwroot\system\apps\Admin\Controller\IndexController.class.php 第 574 行.
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 0 AND `is_del` = 0 ORDER BY `sort` asc,`ctime` desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: moduleId D:\wwwroot\system\apps\Admin\Controller\IndexController.class.php 第 575 行.
+SQL: SELECT * FROM `cms_cate` WHERE `is_del` = 0 ORDER BY `sort` asc,`ctime` desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: 21 D:\wwwroot\system\runtime\Cache\Admin\4f5640e8f277e7bac203de230e346efe.php 第 15 行.
+NOTIC: [8] Undefined index: 4 D:\wwwroot\system\runtime\Cache\Admin\4f5640e8f277e7bac203de230e346efe.php 第 15 行.
+SQL: SHOW COLUMNS FROM `cms_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `code` = 'companynews' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 8 AND `is_del` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `code` = 'industrynews' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 9 AND `is_del` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `code` = 'problemnews' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 10 AND `is_del` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `code` = 'category1' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 12 AND `is_del` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `code` = 'category2' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 13 AND `is_del` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `code` = 'cate2' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 20 AND `is_del` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: 24 D:\wwwroot\system\runtime\Cache\Admin\4f5640e8f277e7bac203de230e346efe.php 第 15 行.
+NOTIC: [8] Undefined index: 1 D:\wwwroot\system\runtime\Cache\Admin\4f5640e8f277e7bac203de230e346efe.php 第 15 行.
+SQL: SELECT * FROM `cms_cate` WHERE `code` = 'newcases' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 15 AND `is_del` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `code` = 'typicalcases' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 16 AND `is_del` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `code` = 'downpic' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 18 AND `is_del` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `code` = 'downdoc' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 19 AND `is_del` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031236s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031236s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-29T11:13:27+08:00 ] 101.226.33.200 /Admin/Index/listCateNavBox?linkUrlId=link_url&_=1482981170252
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+
+[ 2016-12-29T11:13:27+08:00 ] 101.226.33.200 /Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015618s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015618s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-29T11:13:28+08:00 ] 183.15.252.188 /Admin/Index/listCateNavBox?linkUrlId=link_url&_=1482981170255
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+SQL: SHOW COLUMNS FROM `cms_history` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_history` WHERE `ip` = '183.15.252.188' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_module` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_module` WHERE `is_del` = 0 AND `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_web_info` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_web_info` WHERE `id` = 1 AND `module_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_cate` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: moduleId D:\wwwroot\system\apps\Admin\Controller\IndexController.class.php 第 574 行.
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 0 AND `is_del` = 0 ORDER BY `sort` asc,`ctime` desc  [ RunTime:0.0156s ]
+NOTIC: [8] Undefined variable: moduleId D:\wwwroot\system\apps\Admin\Controller\IndexController.class.php 第 575 行.
+SQL: SELECT * FROM `cms_cate` WHERE `is_del` = 0 ORDER BY `sort` asc,`ctime` desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: 21 D:\wwwroot\system\runtime\Cache\Admin\4f5640e8f277e7bac203de230e346efe.php 第 15 行.
+NOTIC: [8] Undefined index: 4 D:\wwwroot\system\runtime\Cache\Admin\4f5640e8f277e7bac203de230e346efe.php 第 15 行.
+SQL: SHOW COLUMNS FROM `cms_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `code` = 'companynews' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 8 AND `is_del` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `code` = 'industrynews' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 9 AND `is_del` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `code` = 'problemnews' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 10 AND `is_del` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `code` = 'category1' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 12 AND `is_del` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `code` = 'category2' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 13 AND `is_del` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `code` = 'cate2' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 20 AND `is_del` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: 24 D:\wwwroot\system\runtime\Cache\Admin\4f5640e8f277e7bac203de230e346efe.php 第 15 行.
+NOTIC: [8] Undefined index: 1 D:\wwwroot\system\runtime\Cache\Admin\4f5640e8f277e7bac203de230e346efe.php 第 15 行.
+SQL: SELECT * FROM `cms_cate` WHERE `code` = 'newcases' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 15 AND `is_del` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `code` = 'typicalcases' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 16 AND `is_del` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `code` = 'downpic' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 18 AND `is_del` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `code` = 'downdoc' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 19 AND `is_del` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031235s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031235s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-29T11:13:34+08:00 ] 101.226.33.219 /Admin/Index/listCateNavBox?linkUrlId=link_url&_=1482981170253
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+
+[ 2016-12-29T11:13:35+08:00 ] 101.226.33.219 /Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015618s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015618s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-29T11:13:38+08:00 ] 101.226.61.207 /Admin/Index/listCateNavBox?linkUrlId=link_url&_=1482981170255
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+
+[ 2016-12-29T11:13:38+08:00 ] 101.226.61.207 /Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015618s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015618s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-29T11:14:21+08:00 ] 183.15.252.188 /Admin/UploadResource/selectImage?moduleId=undefined&imageId=picUrl&uploadType=imageOne&_=1482981170256
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+SQL: SHOW COLUMNS FROM `cms_history` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_history` WHERE `ip` = '183.15.252.188' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_module` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_module` WHERE `is_del` = 0 AND `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_web_info` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_web_info` WHERE `id` = 1 AND `module_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_resource` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `cms_resource` WHERE `file_ext` IN ('png','jpg','gif','bmp') AND `is_del` = 0 ORDER BY ctime desc LIMIT 0,18   [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_resource` WHERE `file_ext` IN ('png','jpg','gif','bmp') AND `is_del` = 0 ORDER BY ctime desc LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Undefined index: columnPages D:\wwwroot\system\framework\Library\Think\Page.class.php 第 77 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-29T11:14:31+08:00 ] 101.226.33.223 /Admin/UploadResource/selectImage?moduleId=undefined&imageId=picUrl&uploadType=imageOne&_=1482981170256
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+
+[ 2016-12-29T11:14:31+08:00 ] 101.226.33.223 /Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015618s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015618s ]
+
+[ 2016-12-29T11:15:43+08:00 ] 183.15.252.188 /Admin/List/saveListInfo?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+SQL: SHOW COLUMNS FROM `cms_history` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_history` WHERE `ip` = '183.15.252.188' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_module` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_module` WHERE `is_del` = 0 AND `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_web_info` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_web_info` WHERE `id` = 1 AND `module_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_module_field` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_module_field` WHERE `module_id` = 4 AND `is_del` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_list` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: id D:\wwwroot\system\apps\Admin\Controller\ListController.class.php 第 23 行.
+SQL: INSERT INTO `cms_list` (`module_id`,`title`,`cate_id`,`is_top`,`link_url`,`pic_url`,`note`,`code`,`tpl_msg`,`seo_title`,`seo_keyword`,`seo_desc`,`view_count`,`good_count`,`bad_count`,`author`,`sort`,`ctime`) VALUES ('4','测试发布产品是否能够成功','11','1','/List-cate-id-11.html','/data/upload/20161228/5863db3be07ae.gif','<p>测试发布产品是否能够成功测试发布产品是否能够成功测试发布产品是否能够成功测试发布产品是否能够成功</p>','','','','','','0','0','0','','0','1482981171') [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `cms_list_ext` [ RunTime:0.0000s ]
+SQL: INSERT INTO `cms_list_ext` (`id`,`field`,`content`) VALUES ('63','shuxing','<p>&nbsp;&nbsp;&nbsp;&nbsp;测试发布产品是否能够成功测试发布产品是否能够成功测试发布产品是否能够成功测试发布产品是否能够成功测试发布产品是否能够成功测试发布产品是否能够成功测试发布产品是否能够成功测试发布产品是否能够成功测试发布产品是否能够成功测试发布产品是否能够成功测试发布产品是否能够成功</p><p><img src=\"/data/upload/20161228/5863db3be07ae.gif\" alt=\"5863db3be07ae.gif\"/></p>'),('63','price','') [ RunTime:0.0000s ]
+
+[ 2016-12-29T11:15:44+08:00 ] 183.15.252.188 /Admin/Index/listPage?moduleId=4&moduleCode=product
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+SQL: SHOW COLUMNS FROM `cms_history` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_history` WHERE `ip` = '183.15.252.188' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_module` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_module` WHERE `is_del` = 0 AND `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_web_info` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_web_info` WHERE `id` = 1 AND `module_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_module` WHERE `id` = 4 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_cate` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `cms_cate` WHERE `module_id` = 4 AND `is_del` = 0 ORDER BY `sort` asc,`ctime` desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_list` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_list` WHERE `module_id` = 4 AND `is_del` = 0 ORDER BY `ctime` desc,`sort` desc LIMIT 0,15   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_list` WHERE `module_id` = 4 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: indexCurrent D:\wwwroot\system\runtime\Cache\Admin\8ae9c2b716a177c3b6e5727e93469bbc.php 第 101 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Undefined variable: moduleCurrent D:\wwwroot\system\runtime\Cache\Admin\8ae9c2b716a177c3b6e5727e93469bbc.php 第 170 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Undefined variable: adminManageCurrent D:\wwwroot\system\runtime\Cache\Admin\8ae9c2b716a177c3b6e5727e93469bbc.php 第 177 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Undefined variable: pageBar D:\wwwroot\system\runtime\Cache\Admin\8ae9c2b716a177c3b6e5727e93469bbc.php 第 281 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031236s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031236s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-29T11:15:47+08:00 ] 183.15.252.188 /Admin/Index/listEdit?moduleId=4&moduleCode=product&listId=63
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+SQL: SHOW COLUMNS FROM `cms_history` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_history` WHERE `ip` = '183.15.252.188' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_module` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_module` WHERE `is_del` = 0 AND `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_web_info` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_web_info` WHERE `id` = 1 AND `module_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_module` WHERE `id` = 4 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `module_id` = 4 AND `parent_id` = 0 AND `is_del` = 0 ORDER BY `sort` asc,`ctime` desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `module_id` = 4 AND `is_del` = 0 ORDER BY `sort` asc,`ctime` desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_module_field` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_module_field` WHERE `module_id` = 4 AND `is_del` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_list` [ RunTime:0.0312s ]
+SQL: SELECT * FROM `cms_list` WHERE `id` = 63 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_list_ext` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_list_ext` WHERE `id` = 63  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: indexCurrent D:\wwwroot\system\runtime\Cache\Admin\23a8beb28f4adab7220403b515fb39fc.php 第 101 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Undefined variable: moduleCurrent D:\wwwroot\system\runtime\Cache\Admin\23a8beb28f4adab7220403b515fb39fc.php 第 170 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Undefined variable: adminManageCurrent D:\wwwroot\system\runtime\Cache\Admin\23a8beb28f4adab7220403b515fb39fc.php 第 177 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+SQL: SHOW COLUMNS FROM `cms_cate` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `cms_cate` WHERE `code` = 'category1' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 12 AND `is_del` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `code` = 'category2' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 13 AND `is_del` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `code` = 'cate2' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 20 AND `is_del` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.015618s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.015618s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015619s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.015619s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015619s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.015619s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-29T11:15:53+08:00 ] 183.15.252.188 /Admin/Index/listPage?moduleId=4&moduleCode=product
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+SQL: SHOW COLUMNS FROM `cms_history` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_history` WHERE `ip` = '183.15.252.188' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_module` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_module` WHERE `is_del` = 0 AND `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_web_info` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_web_info` WHERE `id` = 1 AND `module_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_module` WHERE `id` = 4 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_cate` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `cms_cate` WHERE `module_id` = 4 AND `is_del` = 0 ORDER BY `sort` asc,`ctime` desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_list` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_list` WHERE `module_id` = 4 AND `is_del` = 0 ORDER BY `ctime` desc,`sort` desc LIMIT 0,15   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_list` WHERE `module_id` = 4 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: indexCurrent D:\wwwroot\system\runtime\Cache\Admin\8ae9c2b716a177c3b6e5727e93469bbc.php 第 101 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Undefined variable: moduleCurrent D:\wwwroot\system\runtime\Cache\Admin\8ae9c2b716a177c3b6e5727e93469bbc.php 第 170 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Undefined variable: adminManageCurrent D:\wwwroot\system\runtime\Cache\Admin\8ae9c2b716a177c3b6e5727e93469bbc.php 第 177 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Undefined variable: pageBar D:\wwwroot\system\runtime\Cache\Admin\8ae9c2b716a177c3b6e5727e93469bbc.php 第 281 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031236s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031236s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-29T11:15:56+08:00 ] 183.15.252.188 /Admin/Index/navList?moduleId=2&moduleCode=nav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+SQL: SHOW COLUMNS FROM `cms_history` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_history` WHERE `ip` = '183.15.252.188' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_module` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_module` WHERE `is_del` = 0 AND `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_web_info` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_web_info` WHERE `id` = 1 AND `module_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `cms_nav` WHERE `parent_id` = 0 AND `is_del` = 0 ORDER BY `sort` asc,`ctime` desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_nav` WHERE `is_del` = 0 ORDER BY `sort` asc,`ctime` desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: indexCurrent D:\wwwroot\system\runtime\Cache\Admin\c73a3cd0244094245dabdb16db5005cf.php 第 100 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Undefined variable: moduleCurrent D:\wwwroot\system\runtime\Cache\Admin\c73a3cd0244094245dabdb16db5005cf.php 第 169 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Undefined variable: adminManageCurrent D:\wwwroot\system\runtime\Cache\Admin\c73a3cd0244094245dabdb16db5005cf.php 第 176 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Undefined index: 1 D:\wwwroot\system\runtime\Cache\Admin\c73a3cd0244094245dabdb16db5005cf.php 第 222 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031236s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031236s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-29T11:15:57+08:00 ] 180.153.214.182 /Admin/Index/listEdit?moduleId=4&moduleCode=product&listId=63
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+
+[ 2016-12-29T11:15:57+08:00 ] 180.153.214.182 /Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015618s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015618s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-29T11:16:01+08:00 ] 183.15.252.188 /Admin/Index/navEdit?moduleId=5&navId=22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+SQL: SHOW COLUMNS FROM `cms_history` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_history` WHERE `ip` = '183.15.252.188' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_module` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_module` WHERE `is_del` = 0 AND `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_web_info` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_web_info` WHERE `id` = 1 AND `module_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_nav` WHERE `parent_id` = 0 AND `is_del` = 0 ORDER BY `sort` asc,`ctime` desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_nav` WHERE `id` = 22 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: indexCurrent D:\wwwroot\system\runtime\Cache\Admin\2b936fa57a92f1e1f30355d91e15d50a.php 第 100 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Undefined variable: moduleCurrent D:\wwwroot\system\runtime\Cache\Admin\2b936fa57a92f1e1f30355d91e15d50a.php 第 169 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Undefined variable: adminManageCurrent D:\wwwroot\system\runtime\Cache\Admin\2b936fa57a92f1e1f30355d91e15d50a.php 第 176 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.031236s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015618s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015618s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015618s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015618s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-29T11:16:02+08:00 ] 183.15.252.188 /Admin/Index/listMsgNavBox?linkUrlId=link_url&_=1482981359660
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+SQL: SHOW COLUMNS FROM `cms_history` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_history` WHERE `ip` = '183.15.252.188' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_module` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_module` WHERE `is_del` = 0 AND `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_web_info` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `cms_web_info` WHERE `id` = 1 AND `module_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_cate` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title`,`code` FROM `cms_cate` WHERE `is_del` = 0 ORDER BY `sort` asc,`ctime` desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_list` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`cate_id`,`title` FROM `cms_list` WHERE `is_del` = 0 ORDER BY `ctime` desc,`sort` desc LIMIT 0,15   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_list` WHERE `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pageBar D:\wwwroot\system\runtime\Cache\Admin\5a372e5ae6da2c72b383feb549c8eadf.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-29T11:16:11+08:00 ] 101.226.33.238 /Admin/Index/navEdit?moduleId=5&navId=22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+
+[ 2016-12-29T11:16:11+08:00 ] 101.226.33.238 /Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015619s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015619s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-29T11:16:12+08:00 ] 140.207.185.111 /Admin/Index/listMsgNavBox?linkUrlId=link_url&_=1482981359660
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+
+[ 2016-12-29T11:16:12+08:00 ] 140.207.185.111 /Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015619s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015619s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-29T11:16:24+08:00 ] 183.15.252.188 /Admin/Index/navList?moduleId=2&moduleCode=nav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+SQL: SHOW COLUMNS FROM `cms_history` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_history` WHERE `ip` = '183.15.252.188' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_module` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_module` WHERE `is_del` = 0 AND `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_web_info` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_web_info` WHERE `id` = 1 AND `module_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_nav` WHERE `parent_id` = 0 AND `is_del` = 0 ORDER BY `sort` asc,`ctime` desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_nav` WHERE `is_del` = 0 ORDER BY `sort` asc,`ctime` desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: indexCurrent D:\wwwroot\system\runtime\Cache\Admin\c73a3cd0244094245dabdb16db5005cf.php 第 100 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Undefined variable: moduleCurrent D:\wwwroot\system\runtime\Cache\Admin\c73a3cd0244094245dabdb16db5005cf.php 第 169 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Undefined variable: adminManageCurrent D:\wwwroot\system\runtime\Cache\Admin\c73a3cd0244094245dabdb16db5005cf.php 第 176 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Undefined index: 1 D:\wwwroot\system\runtime\Cache\Admin\c73a3cd0244094245dabdb16db5005cf.php 第 222 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046854s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046854s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-29T11:30:12+08:00 ] 183.15.252.188 /Admin/Index/navEdit?moduleId=3&navId=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+SQL: SHOW COLUMNS FROM `cms_history` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_history` WHERE `ip` = '183.15.252.188' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_module` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_module` WHERE `is_del` = 0 AND `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_web_info` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `cms_web_info` WHERE `id` = 1 AND `module_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_nav` WHERE `parent_id` = 0 AND `is_del` = 0 ORDER BY `sort` asc,`ctime` desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_nav` WHERE `id` = 7 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: indexCurrent D:\wwwroot\system\runtime\Cache\Admin\2b936fa57a92f1e1f30355d91e15d50a.php 第 100 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Undefined variable: moduleCurrent D:\wwwroot\system\runtime\Cache\Admin\2b936fa57a92f1e1f30355d91e15d50a.php 第 169 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Undefined variable: adminManageCurrent D:\wwwroot\system\runtime\Cache\Admin\2b936fa57a92f1e1f30355d91e15d50a.php 第 176 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.015619s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-29T11:30:17+08:00 ] 183.15.252.188 /Admin/Index/navList?moduleId=2&moduleCode=nav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+SQL: SHOW COLUMNS FROM `cms_history` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_history` WHERE `ip` = '183.15.252.188' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_module` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_module` WHERE `is_del` = 0 AND `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_web_info` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_web_info` WHERE `id` = 1 AND `module_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `cms_nav` WHERE `parent_id` = 0 AND `is_del` = 0 ORDER BY `sort` asc,`ctime` desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_nav` WHERE `is_del` = 0 ORDER BY `sort` asc,`ctime` desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: indexCurrent D:\wwwroot\system\runtime\Cache\Admin\c73a3cd0244094245dabdb16db5005cf.php 第 100 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Undefined variable: moduleCurrent D:\wwwroot\system\runtime\Cache\Admin\c73a3cd0244094245dabdb16db5005cf.php 第 169 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Undefined variable: adminManageCurrent D:\wwwroot\system\runtime\Cache\Admin\c73a3cd0244094245dabdb16db5005cf.php 第 176 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Undefined index: 1 D:\wwwroot\system\runtime\Cache\Admin\c73a3cd0244094245dabdb16db5005cf.php 第 222 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031239s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031239s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-29T11:30:23+08:00 ] 180.163.2.116 /Admin/Index/navEdit?moduleId=3&navId=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+
+[ 2016-12-29T11:30:23+08:00 ] 180.163.2.116 /Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015619s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015619s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-29T11:30:24+08:00 ] 183.15.252.188 /Admin/Login/cleanCacheFun?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+
+[ 2016-12-29T11:30:35+08:00 ] 183.15.252.188 /Admin/Index/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+SQL: SHOW COLUMNS FROM `cms_history` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_history` WHERE `ip` = '183.15.252.188' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_module` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_module` WHERE `is_del` = 0 AND `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_web_info` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_web_info` WHERE `id` = 1 AND `module_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `cms_admin` WHERE `is_del` = 0 ORDER BY `ctime` asc,`sort` asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: indexCurrent D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 100 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Undefined variable: current D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 162 行.
+NOTIC: [8] Undefined variable: current D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 108 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 117 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 135 行.
+NOTIC: [8] Undefined variable: current D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 108 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 117 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 135 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 152 行.
+NOTIC: [8] Undefined variable: current D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 108 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 117 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 135 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 152 行.
+NOTIC: [8] Undefined variable: current D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 108 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 117 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 135 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 152 行.
+NOTIC: [8] Undefined variable: current D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 162 行.
+NOTIC: [8] Undefined variable: current D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 108 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 117 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 135 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 152 行.
+NOTIC: [8] Undefined variable: current D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 162 行.
+NOTIC: [8] Undefined variable: current D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 108 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 117 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 135 行.
+NOTIC: [8] Undefined variable: current D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 108 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 117 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 135 行.
+NOTIC: [8] Undefined variable: current D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 108 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 117 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 135 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 152 行.
+NOTIC: [8] Undefined variable: current D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 108 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 117 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 135 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 152 行.
+NOTIC: [8] Undefined variable: current D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 108 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 117 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 135 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 152 行.
+NOTIC: [8] Undefined variable: moduleCurrent D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 169 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031238s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031238s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-29T11:30:43+08:00 ] 183.15.252.188 /Admin/Index/module
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+SQL: SHOW COLUMNS FROM `cms_history` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_history` WHERE `ip` = '183.15.252.188' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_module` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_module` WHERE `is_del` = 0 AND `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_web_info` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `cms_web_info` WHERE `id` = 1 AND `module_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_module` WHERE `is_del` = 0 AND `status` = 0  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: indexCurrent D:\wwwroot\system\runtime\Cache\Admin\1e56c1aab7089895e045a4745b6033f3.php 第 101 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Undefined variable: current D:\wwwroot\system\runtime\Cache\Admin\1e56c1aab7089895e045a4745b6033f3.php 第 163 行.
+NOTIC: [8] Undefined variable: current D:\wwwroot\system\runtime\Cache\Admin\1e56c1aab7089895e045a4745b6033f3.php 第 109 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\1e56c1aab7089895e045a4745b6033f3.php 第 118 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\1e56c1aab7089895e045a4745b6033f3.php 第 136 行.
+NOTIC: [8] Undefined variable: current D:\wwwroot\system\runtime\Cache\Admin\1e56c1aab7089895e045a4745b6033f3.php 第 109 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\1e56c1aab7089895e045a4745b6033f3.php 第 118 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\1e56c1aab7089895e045a4745b6033f3.php 第 136 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\1e56c1aab7089895e045a4745b6033f3.php 第 153 行.
+NOTIC: [8] Undefined variable: current D:\wwwroot\system\runtime\Cache\Admin\1e56c1aab7089895e045a4745b6033f3.php 第 109 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\1e56c1aab7089895e045a4745b6033f3.php 第 118 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\1e56c1aab7089895e045a4745b6033f3.php 第 136 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\1e56c1aab7089895e045a4745b6033f3.php 第 153 行.
+NOTIC: [8] Undefined variable: current D:\wwwroot\system\runtime\Cache\Admin\1e56c1aab7089895e045a4745b6033f3.php 第 109 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\1e56c1aab7089895e045a4745b6033f3.php 第 118 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\1e56c1aab7089895e045a4745b6033f3.php 第 136 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\1e56c1aab7089895e045a4745b6033f3.php 第 153 行.
+NOTIC: [8] Undefined variable: current D:\wwwroot\system\runtime\Cache\Admin\1e56c1aab7089895e045a4745b6033f3.php 第 163 行.
+NOTIC: [8] Undefined variable: current D:\wwwroot\system\runtime\Cache\Admin\1e56c1aab7089895e045a4745b6033f3.php 第 109 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\1e56c1aab7089895e045a4745b6033f3.php 第 118 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\1e56c1aab7089895e045a4745b6033f3.php 第 136 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\1e56c1aab7089895e045a4745b6033f3.php 第 153 行.
+NOTIC: [8] Undefined variable: current D:\wwwroot\system\runtime\Cache\Admin\1e56c1aab7089895e045a4745b6033f3.php 第 163 行.
+NOTIC: [8] Undefined variable: current D:\wwwroot\system\runtime\Cache\Admin\1e56c1aab7089895e045a4745b6033f3.php 第 109 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\1e56c1aab7089895e045a4745b6033f3.php 第 118 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\1e56c1aab7089895e045a4745b6033f3.php 第 136 行.
+NOTIC: [8] Undefined variable: current D:\wwwroot\system\runtime\Cache\Admin\1e56c1aab7089895e045a4745b6033f3.php 第 109 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\1e56c1aab7089895e045a4745b6033f3.php 第 118 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\1e56c1aab7089895e045a4745b6033f3.php 第 136 行.
+NOTIC: [8] Undefined variable: current D:\wwwroot\system\runtime\Cache\Admin\1e56c1aab7089895e045a4745b6033f3.php 第 109 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\1e56c1aab7089895e045a4745b6033f3.php 第 118 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\1e56c1aab7089895e045a4745b6033f3.php 第 136 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\1e56c1aab7089895e045a4745b6033f3.php 第 153 行.
+NOTIC: [8] Undefined variable: current D:\wwwroot\system\runtime\Cache\Admin\1e56c1aab7089895e045a4745b6033f3.php 第 109 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\1e56c1aab7089895e045a4745b6033f3.php 第 118 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\1e56c1aab7089895e045a4745b6033f3.php 第 136 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\1e56c1aab7089895e045a4745b6033f3.php 第 153 行.
+NOTIC: [8] Undefined variable: current D:\wwwroot\system\runtime\Cache\Admin\1e56c1aab7089895e045a4745b6033f3.php 第 109 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\1e56c1aab7089895e045a4745b6033f3.php 第 118 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\1e56c1aab7089895e045a4745b6033f3.php 第 136 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\1e56c1aab7089895e045a4745b6033f3.php 第 153 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Undefined variable: adminManageCurrent D:\wwwroot\system\runtime\Cache\Admin\1e56c1aab7089895e045a4745b6033f3.php 第 177 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015619s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015619s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015619s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015619s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-29T11:30:47+08:00 ] 101.226.68.197 /Admin/Index/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+
+[ 2016-12-29T11:30:47+08:00 ] 101.226.68.197 /Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015619s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015619s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-29T11:30:49+08:00 ] 183.15.252.188 /Admin/Index/cateList?moduleId=10&moduleCode=cate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+SQL: SHOW COLUMNS FROM `cms_history` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_history` WHERE `ip` = '183.15.252.188' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_module` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `cms_module` WHERE `is_del` = 0 AND `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_web_info` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_web_info` WHERE `id` = 1 AND `module_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 0 AND `is_del` = 0 ORDER BY `sort` asc,`ctime` desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `is_del` = 0 ORDER BY `sort` asc,`ctime` desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: indexCurrent D:\wwwroot\system\runtime\Cache\Admin\4db38b854f1cb4706da6d859d14e2fed.php 第 100 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Undefined variable: moduleCurrent D:\wwwroot\system\runtime\Cache\Admin\4db38b854f1cb4706da6d859d14e2fed.php 第 169 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Undefined variable: adminManageCurrent D:\wwwroot\system\runtime\Cache\Admin\4db38b854f1cb4706da6d859d14e2fed.php 第 176 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Undefined index: 21 D:\wwwroot\system\runtime\Cache\Admin\4db38b854f1cb4706da6d859d14e2fed.php 第 225 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Undefined index: 4 D:\wwwroot\system\runtime\Cache\Admin\4db38b854f1cb4706da6d859d14e2fed.php 第 225 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+SQL: SHOW COLUMNS FROM `cms_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `code` = 'companynews' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 8 AND `is_del` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+SQL: SELECT * FROM `cms_cate` WHERE `code` = 'industrynews' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 9 AND `is_del` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+SQL: SELECT * FROM `cms_cate` WHERE `code` = 'problemnews' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 10 AND `is_del` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+SQL: SELECT * FROM `cms_cate` WHERE `code` = 'category1' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 12 AND `is_del` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+SQL: SELECT * FROM `cms_cate` WHERE `code` = 'category2' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 13 AND `is_del` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+SQL: SELECT * FROM `cms_cate` WHERE `code` = 'cate2' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 20 AND `is_del` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Undefined index: 24 D:\wwwroot\system\runtime\Cache\Admin\4db38b854f1cb4706da6d859d14e2fed.php 第 225 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Undefined index: 1 D:\wwwroot\system\runtime\Cache\Admin\4db38b854f1cb4706da6d859d14e2fed.php 第 225 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+SQL: SELECT * FROM `cms_cate` WHERE `code` = 'newcases' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 15 AND `is_del` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+SQL: SELECT * FROM `cms_cate` WHERE `code` = 'typicalcases' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 16 AND `is_del` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+SQL: SELECT * FROM `cms_cate` WHERE `code` = 'downpic' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 18 AND `is_del` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+SQL: SELECT * FROM `cms_cate` WHERE `code` = 'downdoc' AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `parent_id` = 19 AND `is_del` = 0 ORDER BY `sort` asc  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062477s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062477s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-29T11:30:55+08:00 ] 183.15.252.188 /Admin/Cate/deleteCate?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+SQL: SHOW COLUMNS FROM `cms_history` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_history` WHERE `ip` = '183.15.252.188' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_module` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_module` WHERE `is_del` = 0 AND `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_web_info` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `cms_web_info` WHERE `id` = 1 AND `module_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_list` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_list` WHERE `cate_id` = 11 AND `module_id` = 4 AND `is_del` = 0 AND `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: count D:\wwwroot\system\apps\Admin\Controller\CateController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `cms_cate` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_cate` WHERE `parent_id` = 11 AND `module_id` = 4 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-12-29T11:31:00+08:00 ] 183.15.252.188 /Admin/Index/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+SQL: SHOW COLUMNS FROM `cms_history` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_history` WHERE `ip` = '183.15.252.188' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_module` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_module` WHERE `is_del` = 0 AND `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_web_info` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_web_info` WHERE `id` = 1 AND `module_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_admin` WHERE `is_del` = 0 ORDER BY `ctime` asc,`sort` asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: indexCurrent D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 100 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Undefined variable: current D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 162 行.
+NOTIC: [8] Undefined variable: current D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 108 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 117 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 135 行.
+NOTIC: [8] Undefined variable: current D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 108 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 117 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 135 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 152 行.
+NOTIC: [8] Undefined variable: current D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 108 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 117 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 135 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 152 行.
+NOTIC: [8] Undefined variable: current D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 108 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 117 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 135 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 152 行.
+NOTIC: [8] Undefined variable: current D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 162 行.
+NOTIC: [8] Undefined variable: current D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 108 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 117 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 135 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 152 行.
+NOTIC: [8] Undefined variable: current D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 162 行.
+NOTIC: [8] Undefined variable: current D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 108 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 117 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 135 行.
+NOTIC: [8] Undefined variable: current D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 108 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 117 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 135 行.
+NOTIC: [8] Undefined variable: current D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 108 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 117 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 135 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 152 行.
+NOTIC: [8] Undefined variable: current D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 108 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 117 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 135 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 152 行.
+NOTIC: [8] Undefined variable: current D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 108 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 117 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 135 行.
+NOTIC: [8] Undefined variable: activeLi D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 152 行.
+NOTIC: [8] Undefined variable: moduleCurrent D:\wwwroot\system\runtime\Cache\Admin\bbccf27c407f05c23fdfe2fd508c370b.php 第 169 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031238s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031238s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-29T11:31:24+08:00 ] 183.15.252.188 /Admin/Index/listPage?moduleId=5&moduleCode=onepage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+SQL: SHOW COLUMNS FROM `cms_history` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_history` WHERE `ip` = '183.15.252.188' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_module` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_module` WHERE `is_del` = 0 AND `status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_web_info` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_web_info` WHERE `id` = 1 AND `module_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_module` WHERE `id` = 5 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `module_id` = 5 AND `is_del` = 0 ORDER BY `sort` asc,`ctime` desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_list` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `cms_list` WHERE `module_id` = 5 AND `is_del` = 0 ORDER BY `ctime` desc,`sort` desc LIMIT 0,15   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_list` WHERE `module_id` = 5 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: indexCurrent D:\wwwroot\system\runtime\Cache\Admin\8ae9c2b716a177c3b6e5727e93469bbc.php 第 101 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Undefined variable: moduleCurrent D:\wwwroot\system\runtime\Cache\Admin\8ae9c2b716a177c3b6e5727e93469bbc.php 第 170 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Undefined variable: adminManageCurrent D:\wwwroot\system\runtime\Cache\Admin\8ae9c2b716a177c3b6e5727e93469bbc.php 第 177 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Undefined variable: pageBar D:\wwwroot\system\runtime\Cache\Admin\8ae9c2b716a177c3b6e5727e93469bbc.php 第 281 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031239s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031239s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-29T11:31:28+08:00 ] 183.15.252.188 /Admin/Index/listPage?moduleId=7&moduleCode=download
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+SQL: SHOW COLUMNS FROM `cms_history` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_history` WHERE `ip` = '183.15.252.188' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_module` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_module` WHERE `is_del` = 0 AND `status` = 0  [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `cms_web_info` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_web_info` WHERE `id` = 1 AND `module_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_module` WHERE `id` = 7 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_cate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_cate` WHERE `module_id` = 7 AND `is_del` = 0 ORDER BY `sort` asc,`ctime` desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_list` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `cms_list` WHERE `module_id` = 7 AND `is_del` = 0 ORDER BY `ctime` desc,`sort` desc LIMIT 0,15   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_list` WHERE `module_id` = 7 AND `is_del` = 0 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: indexCurrent D:\wwwroot\system\runtime\Cache\Admin\8ae9c2b716a177c3b6e5727e93469bbc.php 第 101 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Undefined variable: moduleCurrent D:\wwwroot\system\runtime\Cache\Admin\8ae9c2b716a177c3b6e5727e93469bbc.php 第 170 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Undefined variable: adminManageCurrent D:\wwwroot\system\runtime\Cache\Admin\8ae9c2b716a177c3b6e5727e93469bbc.php 第 177 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+NOTIC: [8] Undefined variable: pageBar D:\wwwroot\system\runtime\Cache\Admin\8ae9c2b716a177c3b6e5727e93469bbc.php 第 281 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015620s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015620s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-29T11:31:34+08:00 ] 61.151.228.22 /Admin/Index/listPage?moduleId=5&moduleCode=onepage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+
+[ 2016-12-29T11:31:37+08:00 ] 61.151.228.22 /Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031239s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031239s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-29T11:32:01+08:00 ] 183.15.252.188 /Admin/Login/loginOutFun?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+
+[ 2016-12-29T11:32:02+08:00 ] 183.15.252.188 /Admin/Login/index?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.015619s ]
+NOTIC: [8] Use of undefined constant APP_NAME - assumed 'APP_NAME' D:\wwwroot\system\framework\Common\functions.php 第 910 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015619s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015619s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-12-29T11:32:03+08:00 ] 183.15.252.188 /Admin/Login/createVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wwwroot\system\framework\Common\functions.php 第 1365 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

@@ -1,0 +1,39 @@
+<div style="width:600px;max-height:350px;overflow-x:hidden;overflow-y:auto;background: #fff;">
+	<input type="hidden" value="<!--{$linkUrlId}-->" id="linkUrlId" />
+	<div class="box-list" id="boxListArea">
+		<include file="boxListArea" />
+	</div>
+</div>
+<script>
+
+	$(".selectTheLink").die("click").live("click", function()
+	{
+		var linkUrlId = $("#linkUrlId").val();
+		var linkUrl = $(this).attr("linkUrl");
+		$("#"+linkUrlId).val(linkUrl);
+		ui.box.close();
+	});
+
+	function ajaxGet(url, showId, waitId, loading, display, callback)
+	{
+		var IMGDIR = COMMON_URL + '/images';
+		$("#"+showId).empty();
+		$("#"+showId).html('<span><img src="' + IMGDIR + '/loading.gif" class="vm">正在加载中...</span>');
+		$.ajax({
+			url:url,
+			dataType:"html",
+			type:"get",
+			data:{
+				'inAjax': 1
+			},
+			success:function(res)
+			{
+				$("#"+showId).empty();
+				$("#"+showId).html(res);
+			},
+			error:function(res){
+				return false;
+			}
+		});
+	}
+</script>

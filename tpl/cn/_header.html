@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<link rel="shortcut icon" type="image/x-icon" href="__COMMON__/images/favicon.ico">
+		<meta name="keywords" content="<if condition=" $rs[ 'seo_keyword'] neq '' "><!--{$rs['seo_keyword']}--><else /><!--{$webInfo['seo_keyword']}--></if>">
+		<meta name="description" content="<if condition=" $rs[ 'seo_desc'] neq '' "><!--{$rs['seo_desc']}--><else /><!--{$webInfo['seo_desc']}--></if>">
+		<meta name="version" content="<!--{$version}-->">
+		<title>
+			<if condition="$rs['title'] neq ''">
+				<!--{$rs['title']}-->-</if>
+			<!--{$webInfo['title']}-->
+		</title>
+		<link rel="stylesheet" href="__COMMON__/css/bootstrap.css?<!--{$version}-->" />
+		<link rel="stylesheet" href="__COMMON__/css/ace.css?<!--{$version}-->" />
+		<link rel="stylesheet" href="__COMMON__/css/font-awesome.css?<!--{$version}-->" />
+		<link rel="stylesheet" href="__COMMON__/css/global.css?<!--{$version}-->" />
+		<link rel="stylesheet" href="__COMMON__/css/form.css?<!--{$version}-->" />
+		<link rel="stylesheet" href="__COMMON__/css/common.css?<!--{$version}-->" />
+
+		<script type="text/javascript" src="__COMMON__/js/jquery.js?<!--{$version}-->"></script>
+		<script type="text/javascript" src="__COMMON__/js/cms_common.js?<!--{$version}-->"></script>
+
+		<!--[if lte IE 8]>
+	<script src="__COMMON__/js/html5shiv.js"></script>
+	<script src="__COMMON__/js/respond.js"></script>
+	<![endif]-->
+		<script type="text/javascript">
+			var cmsCommon = new CmsCommonFun();
+			cmsCommon.init();
+		</script>
+	</head>	
+
+	<body style="background:#fff;">

@@ -1,0 +1,43 @@
+<div class="form-group">
+	<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 网址链接： </label>
+
+	<div class="col-sm-10">
+		<input type="text" id="link_url" value="<!--{$link_url}-->" name="link_url" placeholder="网址链接" class="col-sm-8">
+
+		<p style="float:left;">
+			<button class="btn btn-xs btn-info addCateLink" type="button" style="padding-top:3px;float:left;margin-right:10px;" linkId="navIco" id="insertLink">
+				<i class="ace-icon fa fa-external-link bigger-110"></i> 分类
+			</button>
+
+			<button class="btn btn-xs btn-info addMsgLink" type="button" style="padding-top:3px;float:left;margin-right:10px;" linkId="navIco" id="insertLink">
+				<i class="ace-icon fa fa-external-link bigger-110"></i> 主题
+			</button>
+
+			<button class="btn btn-xs btn-info clearLinkUrl" type="button" style="padding-top:3px;float:left;margin-right:10px;" linkId="navIco" id="insertLink">
+				<i class="ace-icon fa fa-external-link bigger-110"></i> 清空
+			</button>
+
+		</p>
+	</div>
+</div>
+<script>
+	$(function()
+	{
+		$(".addCateLink").unbind("click").bind("click", function()
+		{
+			var linkUrlId = 'link_url';
+			ui.box.load(U("Admin/Index/listCateNavBox", ['linkUrlId='+linkUrlId]), "选择链接");
+		});
+
+		$(".addMsgLink").unbind("click").bind("click", function()
+		{
+			var linkUrlId = 'link_url';
+			ui.box.load(U("Admin/Index/listMsgNavBox", ['linkUrlId='+linkUrlId]), "选择链接");
+		});
+
+		$(".clearLinkUrl").unbind("click").bind("click", function()
+		{
+			$("#link_url").attr("value", "");
+		});
+	});
+</script>

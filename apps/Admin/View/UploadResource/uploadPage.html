@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+	<title>上传页面</title>
+	<link rel="stylesheet" href="__COMMON__/css/bootstrap.css?<!--{$version}-->" />
+	<link rel="stylesheet" href="__COMMON__/css/ace.css?<!--{$version}-->" />
+	<link rel="stylesheet" href="__COMMON__/css/font-awesome.css?<!--{$version}-->" />
+	<link rel="stylesheet" href="__COMMON__/css/global.css?<!--{$version}-->" />
+	<link rel="stylesheet" href="__COMMON__/css/form.css?<!--{$version}-->" />
+	<link rel="stylesheet" href="__COMMON__/css/common.css?<!--{$version}-->" />
+
+</head>
+<body style="font: 13px Verdana; background: #eee; color: #333">
+<script type="text/javascript">
+	var SITE_URL = "__ROOT__";
+	var COMMON_URL = "__COMMON__";
+	var APP_STATIC_URL = '__APP__';
+
+	// Js语言变量
+	var LANG = new Array();
+</script>
+<script type="text/javascript" src="__COMMON__/js/jquery.js?<!--{$version}-->"></script>
+<script type="text/javascript" src="__COMMON__/js/bootstrap.js?<!--{$version}-->"></script>
+<script type="text/javascript" src="__COMMON__/js/ace.js?<!--{$version}-->"></script>
+<script type="text/javascript" src="__COMMON__/js/jquery.min.js?<!--{$version}-->"></script>
+<script type="text/javascript" src="__COMMON__/js/core.js?<!--{$version}-->"></script>
+<script type="text/javascript" src="__COMMON__/js/common.js?<!--{$version}-->"></script>
+<script type="text/javascript" src="__COMMON__/js/ui.core.js?<!--{$version}-->"></script>
+<script type="text/javascript" src="__COMMON__/js/html5shiv.js?<!--{$version}-->"></script>
+<script type="text/javascript" src="__COMMON__/js/respond.js?<!--{$version}-->"></script>
+<h1>Custom example</h1>
+
+<p>Shows you how to use the core plupload API.</p>
+
+<div id="filelist">Your browser doesn't have Flash, Silverlight or HTML5 support.</div>
+<br />
+
+<div id="container">
+	<a id="pickfiles" href="javascript:;">[Select files]</a>
+	<a id="uploadfiles" href="javascript:;">[Upload files]</a>
+</div>
+
+<br />
+<pre id="console"></pre>
+
+<script type="text/javascript" src="__COMMON__/js/plupload/plupload.full.min.js"></script>
+<script type="text/javascript">
+	// Custom example logic
+
+	var uploader = new plupload.Uploader({
+		runtimes : 'html5,flash,silverlight,html4',
+		browse_button : 'pickfiles', // you can pass in id...
+		container: document.getElementById('container'), // ... or DOM Element itself
+		url : U("Admin/UploadResource/uploadFile"),
+		flash_swf_url : '__COMMON__/js/plupload/Moxie.swf',
+		silverlight_xap_url : '__COMMON__/js/plupload/Moxie.xap',
+
+		filters : {
+			max_file_size : '10mb',
+			mime_types: [
+
+			]
+		},
+
+		init: {
+
+			PostInit: function() {
+				document.getElementById('filelist').innerHTML = '';
+				document.getElementById('uploadfiles').onclick = function() {
+					uploader.start();
+					return false;
+				};
+			},
+
+			FilesAdded: function(up, files) {
+				plupload.each(files, function(file) {
+					document.getElementById('filelist').innerHTML += '<div id="' + file.id + '">' + file.name + ' (' + plupload.formatSize(file.size) + ') <b></b></div>';
+				});
+			},
+
+			UploadProgress: function(up, file) {
+				document.getElementById(file.id).getElementsByTagName('b')[0].innerHTML = '<span>' + file.percent + "%</span>";
+			},
+
+			FileUploaded:function(up, file, responseObject)
+			{
+				//console.log(responseObject);
+				if(responseObject.status == 200)
+				{
+					document.getElementById(file.id).remove();
+				}
+			},
+
+			UploadComplete:function(up, files)
+			{
+				if(files.length <= 0)
+				{
+					ui.error("请选择文件！");
+					return false;
+				}
+				//console.log(files);
+
+				ui.success("上传文件成功");
+			},
+
+			Error: function(up, err) {
+				ui.error(err.message);
+				return false;
+				document.getElementById('console').innerHTML += "\nError #" + err.code + ": " + err.message;
+			}
+		}
+	});
+
+	uploader.init();
+
+</script>
+</body>
+</html>

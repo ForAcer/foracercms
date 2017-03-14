@@ -1,0 +1,88 @@
+<include file="./Public/public_header" />
+<script type="text/javascript" src="__APP__/js/adminModule.js"></script>
+<div class="main-container container" id="main-container">
+	<include file="./Public/public_left" />
+	<div class="main-content">
+		<div class="main-content-inner">
+			<div class="breadcrumbs" id="breadcrumbs">
+				<ul class="breadcrumb">
+					<li>
+						<i class="ace-icon fa fa-home home-icon"></i>
+						<a href="#">后台首页</a>
+					</li>
+
+					<li>
+						模块管理
+					</li>
+				</ul>
+				<div class="nav-search" id="nav-search">
+				</div>
+
+			</div>
+			<div class="page-content" style="min-height:600px;padding:10px 0px;">
+				<div class="col-xs-12">
+					<div class="row">
+						<div class="col-xs-12">
+							<table id="simple-table" class="table table-striped table-bordered table-hover">
+								<thead>
+								<tr>
+									<th>模块名称</th>
+									<th>模块标识</th>
+									<th>模块注释</th>
+									<th>是否分类</th>
+									<th>模块状态</th>
+									<th>创建时间</th>
+									<th>操作</th>
+								</tr>
+								</thead>
+								<tbody>
+								<if condition="$mList neq ''">
+									<volist name="mList" id="list">
+									<tr id="module_<!--{$list['id']}-->">
+										<td><!--{$list['title']}--></td>
+										<td><!--{$list['code']}--></td>
+										<td><!--{$list['note']}--></td>
+										<td><!--{$isCate[$list['is_cate']]}--></td>
+										<td><!--{$statusList[$list['status']]}--></td>
+										<td><!--{:date('Y-m-d h:i:s', $list['ctime']);}--></td>
+										<td>
+											<div class="hidden-sm hidden-xs">
+												<button class="btn btn-xs btn-info editModuleBox" moduleId="<!--{$list['id']}-->" title="修改">
+													<i class="ace-icon fa fa-pencil bigger-120"></i>
+												</button>
+
+												<button class="btn btn-xs btn-danger delModule" moduleId="<!--{$list['id']}-->" moduleCode="<!--{$list['code']}-->" title="删除">
+													<i class="ace-icon fa fa-trash-o bigger-120"></i>
+												</button>
+												<if condition="$list['is_ext'] eq 0">
+												<button class="btn btn-xs btn-success addField" moduleId="<!--{$list['id']}-->" moduleCode="<!--{$list['code']}-->" title="字段管理">
+													<i class="ace-icon fa fa-file-code-o bigger-120"></i>
+												</button>
+												</if>
+											</div>
+										</td>
+									</tr>
+									</volist>
+									<else />
+									<tr>
+										<td colspan="7" style="width:100%;text-align: center;font-size:100%;color:#333;">暂无数据</td>
+									</tr>
+								</if>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script>
+	$(function()
+	{
+		var moduleList = new ModuleList();
+		moduleList.init();
+	});
+</script>
+<include file="./Public/public_footer" />
+

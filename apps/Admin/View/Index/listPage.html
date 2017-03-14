@@ -1,0 +1,65 @@
+<include file="./Public/public_header" />
+
+<div class="main-container container" id="main-container">
+	<include file="./Public/public_left" />
+	<div class="main-content">
+		<div class="main-content-inner">
+			<div class="breadcrumbs" id="breadcrumbs">
+				<ul class="breadcrumb">
+					<li>
+						<i class="ace-icon fa fa-home home-icon"></i>
+						<a href="#">后台首页</a>
+					</li>
+					<li>
+						<!--{$moduleInfo['title']}-->
+					</li>
+					<li>
+						列表管理
+					</li>
+				</ul>
+				<div class="nav-search" id="nav-search">
+				</div>
+			</div>
+			<div class="page-content" style="min-height:600px;padding:10px 0px;">
+				<div class="col-xs-12">
+					<input type="hidden" id="moduleId" value="<!--{$moduleId}-->" />
+					<input type="hidden" id="moduleCode" value="<!--{$current}-->" />
+					<div class="row" style="margin:0px;" id="moduleList">
+						<include file="moduleList" />
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script>
+
+	var listpage = new ListPage();
+	listpage.init();
+
+	function ajaxGet(url, showId, waitId, loading, display, callback)
+	{
+		var IMGDIR = COMMON_URL + '/images';
+		$("#"+showId).empty();
+		$("#"+showId).html('<span><img src="' + IMGDIR + '/loading.gif" class="vm">正在加载中...</span>');
+		$.ajax({
+			url:url,
+			dataType:"html",
+			type:"get",
+			data:{
+				'moduleId' : $("#moduleId").val(),
+				'inAjax': 1
+			},
+			success:function(res)
+			{
+				$("#"+showId).empty();
+				$("#"+showId).html(res);
+			},
+			error:function(res){
+				return false;
+			}
+		});
+	}
+</script>
+<include file="./Public/public_footer" />
+

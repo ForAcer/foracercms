@@ -1,0 +1,156 @@
+<include file="./Public/public_header"/>
+<div class="main-container container" id="main-container">
+	<include file="./Public/public_left"/>
+	<div class="main-content">
+		<div class="main-content-inner">
+			<div class="breadcrumbs" id="breadcrumbs">
+				<ul class="breadcrumb">
+					<li>
+						<i class="ace-icon fa fa-home home-icon"></i> <a href="#">后台首页</a>
+					</li>
+					<li>
+						<if condition="$navInfo['id'] eq ''"> 添加内容
+							<else/>
+							编辑内容
+						</if>
+					</li>
+					<if condition="$navInfo['id'] neq ''">
+						<li>
+							<!--{$navInfo['title']}-->
+						</li>
+					</if>
+				</ul>
+				<div class="nav-search" id="nav-search">
+				</div>
+			</div>
+			<div class="page-content" style="min-height:600px;padding:10px 0px;">
+				<div class="col-xs-12">
+					<div class="row" style="margin:0px;">
+						<form method="post" name="navInfo" id="navInfo">
+							<div class="form-horizontal table-bordered" style="padding:10px;">
+								<input type="hidden" name="id" value="<!--{$navInfo['id']}-->" id="navId"/>
+								<input type="hidden" name="module_id" value="<!--{$navInfo['module_id']}-->" id="moduleId"/>
+								<input type="hidden" name="ctime" value="<!--{:time();}-->" id="ctime"/>
+
+								<div class="form-group">
+									<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 导航标题： </label>
+
+									<div class="col-sm-10">
+										<input type="text" id="title" name="title" value="<!--{$navInfo['title']}-->" placeholder="导航标题" class="col-sm-12">
+									</div>
+								</div>
+
+								<div class="form-group">
+									<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 副标题： </label>
+
+									<div class="col-sm-10">
+										<input type="text" id="sub_title" name="sub_title" value="<!--{$navInfo['sub_title']}-->" placeholder="副标题" class="col-sm-12">
+									</div>
+								</div>
+								<if condition="$navInfo['id'] eq ''">
+									<div class="form-group">
+										<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 模块类型： </label>
+
+										<div class="col-sm-3">
+											<select id="moduleId" class="form-control" name="module_id">
+												<volist name="dataList" id="mlist">
+													<option value="<!--{$mlist['id']}-->"><!--{$mlist['title']}--></option>
+												</volist>
+											</select>
+										</div>
+									</div>
+								</if>
+
+								<div class="form-group">
+									<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 分类类型： </label>
+
+									<div class="col-sm-3">
+										<select id="parentId" class="form-control" name="parent_id">
+											<option value="0">父分类</option>
+											<if condition="$parentNavList neq ''">
+												<volist name="parentNavList" id="list">
+													<option
+													<if condition="$list['id'] eq $navInfo['parent_id']"> selected</if>
+													value="<!--{$list['id']}-->"><!--{$list['title']}--></option>
+												</volist>
+											</if>
+										</select>
+									</div>
+								</div>
+
+								<div class="form-group">
+									<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 导航简述： </label>
+
+									<div class="col-sm-10">
+										<input type="text" id="note" name="note" value="<!--{$navInfo['note']}-->" placeholder="导航简述" class="col-sm-12">
+									</div>
+								</div>
+
+								<div class="form-group">
+									<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 导航图标： </label>
+
+									<div class="col-sm-8">
+										<input type="text" id="navIco" value="<!--{$navInfo['ico']}-->" name="ico" placeholder="导航图标" class="col-sm-10">
+										<button class="btn btn-xs btn-info" type="button" style="padding-top:3px;" imageId="navIco" uploadType="imageOne" id="insertImage">
+											<i class="ace-icon fa fa-pencil-square-o bigger-110"></i> 选择图片
+										</button>
+									</div>
+								</div>
+
+								<!--{:W("Admin/GetNav/listNav", array('link_url' => $navInfo['link_url']));}-->
+
+								<div class="form-group">
+									<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 是否新页面打开： </label>
+
+									<div class="col-sm-8" style="margin-top:5px;">
+										<label class="pos-rel"> <input type="checkbox" id="targetCheck" name="target"
+											<if condition="$navInfo['target'] eq '1'"> checked</if>
+											value="<!--{$navInfo['target']}-->" class="ace"> <span class="lbl"></span>
+										</label>
+									</div>
+								</div>
+
+								<div class="form-group">
+									<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 导航高亮： </label>
+
+									<div class="col-sm-8">
+										<input type="text" id="sort" value="<!--{$navInfo['height_light_id']}-->" name="height_light_id" placeholder="不填默认为0" class="col-sm-10">
+									</div>
+								</div>
+
+								<div class="form-group">
+									<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 导航排序： </label>
+
+									<div class="col-sm-8">
+										<input type="text" id="sort" value="<!--{$navInfo['sort']}-->" name="sort" placeholder="不填默认为0" class="col-sm-10">
+									</div>
+								</div>
+
+
+								<div class="form-group">
+									<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> </label>
+
+									<div class="col-sm-10">
+										<p id="submitNavEdit" class="btn btn-xs btn-info">
+											<i class="ace-icon fa fa-check icon-on-right"></i> 确认提交
+										</p>
+									</div>
+								</div>
+
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script>
+	$(function()
+	{
+		var navEdit = new NavEdit();
+		navEdit.init();
+	});
+</script>
+<include file="./Public/public_footer"/>
+

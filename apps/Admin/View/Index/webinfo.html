@@ -1,0 +1,157 @@
+<include file="./Public/public_header" />
+<script type="text/javascript" charset="utf-8" src="__COMMON__/js/ueditor/ueditor.config.js"></script>
+<script type="text/javascript" charset="utf-8" src="__COMMON__/js/ueditor/ueditor.all.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="__COMMON__/js/ueditorCommon.js"></script>
+
+<div class="main-container container" id="main-container">
+	<include file="./Public/public_left" />
+	<div class="main-content">
+		<div class="main-content-inner">
+			<div class="breadcrumbs" id="breadcrumbs">
+				<ul class="breadcrumb">
+					<li>
+						<i class="ace-icon fa fa-home home-icon"></i>
+						<a href="#">后台首页</a>
+					</li>
+					<li>
+						网站设置
+					</li>
+				</ul>
+				<div class="nav-search" id="nav-search">
+				</div>
+			</div>
+			<div class="page-content" style="min-height:600px;padding:10px 0px;">
+				<div class="col-xs-12">
+					<div class="row" style="margin:0px;">
+						<form method="post" name="webInfoForm" id="webInfoForm">
+						<div class="form-horizontal table-bordered" style="padding:10px;">
+							<input type="hidden" value="<!--{$webInfo['id']}-->" id="siteId" />
+							<input type="hidden" value="<!--{$webInfo['module_id']}-->" id="moduleId" />
+							<div class="form-group">
+								<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 网站标题： </label>
+
+								<div class="col-sm-10">
+									<input type="text" id="siteName" name="siteName" value="<!--{$webInfo['title']}-->" placeholder="网站标题" class="col-sm-12">
+								</div>
+							</div>
+
+							<div class="form-group">
+								<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 网站描述： </label>
+
+								<div class="col-sm-10">
+									<input type="text" id="siteSeoDesc" name="siteSeoDesc" value="<!--{$webInfo['seo_desc']}-->" placeholder="网站描述" class="col-sm-12">
+								</div>
+							</div>
+
+							<div class="form-group">
+								<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 关键词： </label>
+
+								<div class="col-sm-10">
+									<input type="text" id="siteSeoKeyword" name="siteSeoKeyword" value="<!--{$webInfo['seo_keyword']}-->" placeholder="网站关键词" class="col-sm-12">
+								</div>
+							</div>
+
+							<div class="form-group">
+								<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 网站LOGO： </label>
+								<div class="col-sm-8">
+									<input type="text" id="siteLogo" value="<!--{$webInfo['logo']}-->" name="siteLogo" placeholder="网站logo" class="col-sm-10">
+									<button class="btn btn-xs btn-info" type="button"  style="padding-top:3px;" imageId="siteLogo" uploadType="imageOne" id="insertImage">
+										<i class="ace-icon fa fa-pencil-square-o bigger-110"></i>
+										选择图片
+									</button>
+								</div>
+							</div>
+
+							<div class="form-group">
+								<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 姓名： </label>
+
+								<div class="col-sm-10">
+									<input type="text" id="siteUser" name="siteUser" value="<!--{$webInfo['name']}-->" placeholder="网站拥有者" class="col-sm-12">
+								</div>
+							</div>
+
+							<div class="form-group">
+								<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 固话号码： </label>
+
+								<div class="col-sm-10">
+									<input type="text" id="siteTel" name="siteTel" value="<!--{$webInfo['number']}-->" placeholder="固话号码" class="col-sm-12">
+								</div>
+							</div>
+
+							<div class="form-group">
+								<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 手机号码： </label>
+
+								<div class="col-sm-10">
+									<input type="text" id="sitePhone" name="sitePhone" value="<!--{$webInfo['phone']}-->" placeholder="手机号码" class="col-sm-12">
+								</div>
+							</div>
+
+							<div class="form-group">
+								<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 邮箱： </label>
+
+								<div class="col-sm-10">
+									<input type="text" id="siteEmail" name="siteEmail" value="<!--{$webInfo['email']}-->" placeholder="邮箱" class="col-sm-12">
+								</div>
+							</div>
+
+							<div class="form-group">
+								<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 地址： </label>
+
+								<div class="col-sm-10">
+									<input type="text" id="siteAddress" name="siteAddress" value="<!--{$webInfo['address']}-->" placeholder="地址" class="col-sm-12">
+								</div>
+							</div>
+
+							<div class="form-group">
+								<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 客服QQ： </label>
+
+								<div class="col-sm-10">
+									<input type="text" id="siteKfqq" name="siteKfqq" value="<!--{$webInfo['kfqq']}-->" placeholder="客服QQ,使用英文逗号隔开" class="col-sm-12">
+								</div>
+							</div>
+
+							<div class="form-group">
+								<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 关闭网站： </label>
+
+								<div class="col-sm-10">
+									<label class="pull-left inline">
+										<input id="siteStatus" name="siteStatus" value="<!--{$webInfo['status']}-->"<if condition="$webInfo['status'] eq 1"> checked </if> type="checkbox" class="ace ace-switch ace-switch-5">
+										<span class="lbl middle"></span>
+									</label>								</div>
+							</div>
+
+							<div class="form-group">
+								<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 关闭理由： </label>
+
+								<div class="col-sm-10">
+									<input type="text" id="siteNote" name="siteNote" value="<!--{$webInfo['note']}-->" placeholder="关闭理由" class="col-sm-12">
+								</div>
+							</div>
+
+							<div class="form-group">
+								<label class="col-sm-2 control-label no-padding-right" for="form-field-1">  </label>
+
+								<div class="col-sm-10">
+										<p id="submitWebEdit" class="btn btn-xs btn-info">
+											<i class="ace-icon fa fa-check icon-on-right"></i>
+											确认提交
+										</p>
+								</div>
+							</div>
+
+						</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script>
+	$(function(){
+		var webInfo = new WebInfo();
+		webInfo.init();
+	});
+</script>
+<include file="./Public/public_footer" />
+

@@ -1,0 +1,147 @@
+<include file="./Public/public_header" />
+
+<div class="main-container container" id="main-container">
+	<include file="./Public/public_left" />
+	<div class="main-content">
+		<div class="main-content-inner">
+			<div class="breadcrumbs" id="breadcrumbs">
+				<ul class="breadcrumb">
+					<li>
+						<i class="ace-icon fa fa-home home-icon"></i>
+						<a href="#">后台首页</a>
+					</li>
+					<li>
+						网站设置
+					</li>
+				</ul>
+				<div class="nav-search" id="nav-search">
+				</div>
+			</div>
+			<div class="page-content" style="min-height:600px;padding:10px 0px;">
+				<div class="col-xs-12">
+					<div class="row" style="margin:0px;">
+						<div class="form-horizontal table-bordered" style="padding:10px;">
+
+							<div class="form-group">
+								<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 网站标题： </label>
+
+								<div class="col-sm-10">
+									<input type="text" id="siteName" name="siteName" placeholder="网站标题" class="col-sm-7 col-xs-8">
+								</div>
+							</div>
+
+							<div class="form-group">
+								<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 网站logo： </label>
+								<div class="col-sm-9">
+									<input readonly type="text" id="siteLogo" name="siteLogo" placeholder="网站logo" class="col-xs-8 col-sm-7">
+									<button class="btn btn-xs btn-info" type="button" style="padding-top:3px;" imageId="siteLogo" moduleId="1" uploadType="imageOne" id="insertImage">
+										<i class="ace-icon fa fa-pencil-square-o bigger-110"></i>
+										选择图片
+									</button>
+								</div>
+							</div>
+
+							<div class="form-group" style="margin-bottom:5px;">
+								<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 多张图片： </label>
+								<div class="col-sm-9">
+									<button class="btn btn-xs btn-info" type="button" style="padding-top:3px;" imageId="moreImage" moduleId="1" uploadType="imageMore" id="insertMoreImage">
+										<i class="ace-icon fa fa-pencil-square-o bigger-110"></i>
+										选择多张图片
+									</button>
+								</div>
+							</div>
+
+							<div class="form-group">
+								<label class="col-sm-2 control-label no-padding-right" for="form-field-1">  </label>
+								<div class="col-sm-8">
+									<ul id="moreImage" class="moreImage" style="float:left;margin-right:10px;">
+										<li><img src="__COMMON__/images/nopic.gif" /></li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="form-group">
+								<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 资源上传： </label>
+								<div class="col-sm-9">
+									<input readonly type="text" id="selectResource" name="selectResource" placeholder="选择资源" class="col-xs-8 col-sm-7">
+									<button class="btn btn-xs btn-info" type="button" style="padding-top:3px;" imageId="selectResource" moduleId="1" uploadType="resourceOne" id="insertResource">
+										<i class="ace-icon fa fa-pencil-square-o bigger-110"></i>
+										选择资源
+									</button>
+								</div>
+							</div>
+
+							<div class="form-group">
+								<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 产品内容： </label>
+								<div class="col-sm-9">
+									<textarea id="shortEditor" name="shortEditor" type="text/plain"></textarea>
+								</div>
+							</div>
+
+
+							<div class="form-group">
+								<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 简短内容： </label>
+								<div class="col-sm-9">
+									<textarea id="editor" name="editor" type="text/plain"></textarea>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script>
+	$(function()
+	{
+		$("#insertImage").bind("click", function()
+		{
+			var moduleId = $(this).attr("moduleId");
+			var imageId = $(this).attr("imageId");
+			var uploadType = $(this).attr("uploadType");
+			ui.box.load(U("Admin/UploadResource/selectImage", ['moduleId='+moduleId, 'imageId='+imageId, 'uploadType='+uploadType]),"选择单张图片");
+		});
+
+		$("#insertMoreImage").bind("click", function()
+		{
+			var moduleId = $(this).attr("moduleId");
+			var imageId = $(this).attr("imageId");
+			var uploadType = $(this).attr("uploadType");
+			ui.box.load(U("Admin/UploadResource/selectMoreImage", ['moduleId='+moduleId, 'imageId='+imageId, 'uploadType='+uploadType]),"选择多张图片");
+		});
+
+		$("#insertResource").bind("click", function()
+		{
+			var moduleId = $(this).attr("moduleId");
+			var imageId = $(this).attr("imageId");
+			var uploadType = $(this).attr("uploadType");
+			ui.box.load(U("Admin/UploadResource/selectResource", ['moduleId='+moduleId, 'imageId='+imageId, 'uploadType='+uploadType]),"选择资源");
+		});
+
+		var ueditorCommon = new UeditorCommon();
+		ueditorCommon.loadUeditorBig('editor', 750, 350);
+		ueditorCommon.loadUeditorSmall('shortEditor', 750, 100);
+
+		if($("#moreImage li").length > 0)
+		{
+			$("#moreImage li p").live('click', function()
+			{
+				$(this).parent('li').remove();
+			});
+		}
+
+
+		/*var editor = UE.getEditor("editor");
+		 var shortEditor = UE.getEditor("shortEditor");
+
+		 $("#getContent").bind("click", function()
+		 {
+		 var html = editor.getContent();
+		 alert(html);
+		 });*/
+	});
+</script>
+<include file="./Public/public_footer" />
+

@@ -1,0 +1,78 @@
+<include file="./Public/public_header" />
+<div class="main-container container" id="main-container">
+	<include file="./Public/public_left" />
+	<div class="main-content">
+		<div class="main-content-inner">
+			<div class="breadcrumbs" id="breadcrumbs">
+				<ul class="breadcrumb">
+					<li>
+						<i class="ace-icon fa fa-home home-icon"></i>
+						<a href="#">后台首页</a>
+					</li>
+					<li>
+						导航列表
+					</li>
+				</ul>
+				<div class="nav-search" id="nav-search">
+				</div>
+			</div>
+			<div class="page-content" style="min-height:600px;padding:10px 0px;">
+				<input id="moduleId" value="<!--{$moduleId}-->" type="hidden">
+				<div class="col-xs-12">
+					<div class="row" style="margin:0px;">
+						<div class="form-horizontal table-bordered" style="padding:10px;overflow:hidden;">
+							<div class="col-xs-6">
+								<div class="dd">
+									<ol class="dd-list">
+										<volist name="parentNavList" id="list">
+											<li class="dd-item" id="nav<!--{$list['id']}-->">
+												<div class="dd-handle"><!--{$list['title']}-->
+													<div class="pull-right action-buttons">
+														<a class="blue editNav" navId="<!--{$list['id']}-->" href="<!--{:U('Admin/Index/navEdit', array('moduleId'=> $moduleId, 'navId'=> $list['id']))}-->">
+															<i class="ace-icon fa fa-pencil bigger-130"></i>
+														</a>
+														<a class="red deleteNav" navId="<!--{$list['id']}-->" href="javascript:void(0);">
+															<i class="ace-icon fa fa-trash-o bigger-130"></i>
+														</a>
+													</div>
+												</div>
+												<if condition="$data[$list['id']] neq ''">
+												<ol class="dd-list">
+													<volist name="data[$list['id']]" id="vlist">
+													<li class="dd-item" id="nav<!--{$vlist['id']}-->">
+														<div class="dd-handle">
+															<!--{$vlist['title']}-->
+															<div class="pull-right action-buttons">
+																<a class="blue editNav" navId="<!--{$vlist['id']}-->" href="<!--{:U('Admin/Index/navEdit', array('moduleId'=> $list['module_id'], 'navId'=> $vlist['id']))}-->">
+																	<i class="ace-icon fa fa-pencil bigger-130"></i>
+																</a>
+
+																<a class="red deleteNav" navId="<!--{$vlist['id']}-->" href="javascript:void(0);">
+																	<i class="ace-icon fa fa-trash-o bigger-130"></i>
+																</a>
+															</div>
+														</div>
+													</li>
+													</volist>
+												</ol>
+												</if>
+											</li>
+										</volist>
+									</ol>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script>
+	$(function(){
+		var navList = new NavList();
+		navList.init();
+	});
+</script>
+<include file="./Public/public_footer" />
+

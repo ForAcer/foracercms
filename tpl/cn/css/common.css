@@ -1,0 +1,18 @@
+#moreImage li{float:left;margin-left: 2px;padding: 4px; background: #eee; margin-right: 2px; margin-bottom: 10px;}
+#moreImage li img{width:80px;height:80px;overflow:hidden;}
+#moreImage li p{text-align: center;height:18px;color:#333;cursor: pointer;}
+#moreImage li p:hover{color:#2b7dbc;}
+
+.add-image-list{width:100%;height:auto;overflow:hidden;margin-top:10px;}
+.add-image-list ul li{float:left;margin-left: 2px;padding: 4px; background: #eee; margin-right: 2px; margin-bottom: 10px;}
+.add-image-list ul p{text-align: center;height:18px;color:#333;cursor: pointer;}
+.add-image-list ul p:hover{color:#2b7dbc;}
+
+.page { height: 30px; width: 100%; text-align: center; line-height: 30px;overflow:hidden; }
+.page a { padding: 3px 8px;margin-right:5px; background: #fff; color: #30b8de; border: 1px solid #e9e9e9; }
+.page a:hover, .page a.current { background: #30b8de; color: #fff; }
+
+.listResourceArea{width:100%;overflow:hidden;padding-top:20px;}
+.listResourceArea ul li{float:left;margin-left: 2px;padding: 4px; background: #eee; margin-right: 2px; margin-bottom: 10px;}
+
+.editUserInfoBox{width:500px;height:auto;min-height:400px;background:#fff;}

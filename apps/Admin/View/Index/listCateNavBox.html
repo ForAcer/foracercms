@@ -1,0 +1,60 @@
+<div style="width:600px;height:350px;overflow-x:hidden;overflow-y:auto;background: #fff;">
+	<input type="hidden" value="<!--{$linkUrlId}-->" id="linkUrlId" />
+	<empty name="parentCateList">
+		<div style="height:30px;font-size:14px;line-height:30px;text-align: center;overflow:hidden;">暂无分类</div>
+		<else />
+		<div class="dd">
+			<ol class="dd-list">
+				<volist name="parentCateList" id="list">
+					<li class="dd-item" id="cate_<!--{$list['id']}-->">
+						<div class="dd-handle"><!--{$list['title']}-->
+							<div class="pull-right action-buttons">
+								<button class="blue selectCate"  linkUrl="/List-cate-id-<!--{$list['id']}-->.html" title="点击选择">
+									<i class="ace-icon fa fa-pencil bigger-130"></i>
+								</button>
+							</div>
+						</div>
+						<if condition="$data[$list['id']] neq ''">
+							<ol class="dd-list">
+								<volist name="data[$list['id']]" id="vlist">
+									<li class="dd-item" id="cate_<!--{$vlist['id']}-->">
+										<div class="dd-handle">
+											<!--{$vlist['title']}-->
+											<div class="pull-right action-buttons">
+												<button class="blue selectCate"  linkUrl="/List-cate-id-<!--{$vlist['id']}-->.html"  title="点击选择">
+													<i class="ace-icon fa fa-pencil bigger-130"></i>
+												</button>
+											</div>
+										</div>
+										<ol class="dd-list">
+											<catelist code="$vlist['code']" id="sonlist">
+												<li class="dd-item" id="cate_<!--{$sonlist['id']}-->">
+													<div class="dd-handle"><!--{$sonlist['title']}-->
+														<div class="pull-right action-buttons">
+															<button class="blue selectCate" linkUrl="/List-cate-id-<!--{$sonlist['id']}-->.html"  title="点击选择">
+																<i class="ace-icon fa fa-pencil bigger-130"></i>
+															</button>
+														</div>
+													</div>
+												</li>
+											</catelist>
+										</ol>
+									</li>
+								</volist>
+							</ol>
+						</if>
+					</li>
+				</volist>
+			</ol>
+		</div>
+	</empty>
+</div>
+<script>
+	$(".selectCate").die("click").live("click", function()
+	{
+		var linkUrlId = $("#linkUrlId").val();
+		var linkUrl = $(this).attr("linkUrl");
+		$("#"+linkUrlId).val(linkUrl);
+		ui.box.close();
+	});
+</script>

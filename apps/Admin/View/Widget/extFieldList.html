@@ -1,0 +1,135 @@
+<script>
+	var loadUeditor = new UeditorCommon();
+</script>
+<volist name="data" id="list" key="k">
+
+	<if condition="$list['field_type'] eq 'input'">
+		<div class="form-group">
+			<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> <!--{$list['name']}-->： </label>
+
+			<div class="col-sm-10">
+				<input type="text" id="<!--{$list['field_code']}-->" name="<!--{$list['field_code']}-->" value="<!--{$valueList[$list['field_code']]}-->" placeholder="<!--{$list['name']}-->" class="col-sm-12">
+			</div>
+		</div>
+	</if>
+
+	<if condition="$list['field_type'] eq 'image'">
+		<div class="form-group">
+			<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> <!--{$list['name']}-->： </label>
+
+			<div class="col-sm-10">
+				<input  type="text" id="<!--{$list['field_code']}-->" value="<!--{$valueList[$list['field_code']]}-->" name="<!--{$list['field_code']}-->" placeholder="<!--{$list['name']}-->" class="col-sm-10">
+				<button class="btn btn-xs btn-info" type="button" style="padding-top:3px;" imageId="<!--{$list['field_code']}-->" moduleId="<!--{$list['module_id']}-->" uploadType="imageOne" id="<!--{$list['field_code']}--><!--{$list['sort']}-->">
+					<i class="ace-icon fa fa-pencil-square-o bigger-110"></i> 选择图片
+				</button>
+			</div>
+		</div>
+		<script>
+			var buttonClick<!--{$list['field_code']}--> = $("#"+'<!--{$list['field_code']}--><!--{$list['sort']}-->');
+			buttonClick<!--{$list['field_code']}-->.unbind("bind").bind("click",function()
+			{
+				var moduleId = $(this).attr("moduleId");
+				var imageId = $(this).attr("imageId");
+				var uploadType = $(this).attr("uploadType");
+				ui.box.load(U("Admin/UploadResource/selectImage", ['moduleId='+moduleId, 'imageId='+imageId, 'uploadType='+uploadType]),"选择单张图片");
+			});
+		</script>
+	</if>
+
+	<if condition="$list['field_type'] eq 'images'">
+		<div class="form-group" style="margin-bottom:5px;">
+			<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> <!--{$list['name']}-->： </label>
+			<div class="col-sm-10">
+				<button class="btn btn-xs btn-info" type="button" style="padding-top:3px;" imageId="<!--{$list['field_code']}-->" moduleId="<!--{$list['module_id']}-->" uploadType="imageMore" id="<!--{$list['field_code']}--><!--{$list['sort']}-->">
+					<i class="ace-icon fa fa-pencil-square-o bigger-110"></i> 选择多张图片
+				</button>
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> </label>
+
+			<div class="col-sm-10">
+				<ul id="<!--{$list['field_code']}-->" style="float:left;margin-right:10px;" class="moreImage">
+					<empty name="valueList[$list['field_code']]">
+						<li><img src="__COMMON__/images/nopic.gif"/></li>
+						<else />
+						<volist name="valueList[$list['field_code']]" id="v">
+							<li><input type="hidden" name="<!--{$list['field_code']}-->[]" value="<!--{$v}-->" /><img src="<!--{$v}-->"/><p>删除</p></li>
+						</volist>
+					</empty>				</ul>
+			</div>
+		</div>
+		<script>
+			var buttonClick<!--{$list['field_code']}--> = $("#"+'<!--{$list['field_code']}--><!--{$list['sort']}-->');
+			buttonClick<!--{$list['field_code']}-->.unbind("bind").bind("click",function()
+			{
+				var moduleId = $(this).attr("moduleId");
+				var imageId = $(this).attr("imageId");
+				var uploadType = $(this).attr("uploadType");
+				ui.box.load(U("Admin/UploadResource/selectMoreImage", ['moduleId='+moduleId, 'imageId='+imageId, 'uploadType='+uploadType]),"选择多张图片",function(){
+					if($(".moreImage li").length > 0)
+					{
+						$(".moreImage li p").live('click', function()
+						{
+							$(this).parent('li').remove();
+						});
+					}
+				});
+			});
+			if($(".moreImage li").length > 0)
+			{
+				$(".moreImage li p").live('click', function()
+				{
+					$(this).parent('li').remove();
+				});
+			}
+		</script>
+	</if>
+
+	<if condition="$list['field_type'] eq 'resource'">
+		<div class="form-group">
+			<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> <!--{$list['name']}-->： </label>
+
+			<div class="col-sm-10">
+				<input type="text" id="<!--{$list['field_code']}-->" value="<!--{$valueList[$list['field_code']]}-->" name="<!--{$list['field_code']}-->" placeholder="<!--{$list['name']}-->" class="col-sm-10">
+				<button class="btn btn-xs btn-info" type="button" style="padding-top:3px;" imageId="<!--{$list['field_code']}-->" moduleId="<!--{$list['module_id']}-->" uploadType="resourceOne" id="<!--{$list['field_code']}--><!--{$list['sort']}-->">
+					<i class="ace-icon fa fa-pencil-square-o bigger-110"></i> 选择资源
+				</button>
+			</div>
+		</div>
+		<script>
+			var buttonClick<!--{$list['field_code']}--> = $("#"+'<!--{$list['field_code']}--><!--{$list['sort']}-->');
+			buttonClick<!--{$list['field_code']}-->.unbind("bind").bind("click",function()
+			{
+				var moduleId = $(this).attr("moduleId");
+				var imageId = $(this).attr("imageId");
+				var uploadType = $(this).attr("uploadType");
+				ui.box.load(U("Admin/UploadResource/selectResource", ['moduleId='+moduleId, 'imageId='+imageId, 'uploadType='+uploadType]),"选择资源");
+			});
+		</script>
+	</if>
+	<if condition="$list['field_type'] eq 'editorBig'">
+		<div class="form-group">
+			<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> <!--{$list['name']}-->： </label>
+
+			<div class="col-sm-10">
+				<textarea id="<!--{$list['field_code']}-->" name="<!--{$list['field_code']}-->" type="text/plain"><!--{$valueList[$list['field_code']]}--></textarea>
+			</div>
+		</div>
+		<script>
+			loadUeditor.loadUeditorBig("<!--{$list['field_code']}-->", <!--{$list['width']}-->, <!--{$list['height']}-->);
+		</script>
+	</if>
+
+	<if condition="$list['field_type'] eq 'editorSmall'">
+		<div class="form-group">
+			<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> <!--{$list['name']}-->： </label>
+			<div class="col-sm-10">
+				<textarea id="<!--{$list['field_code']}-->" name="<!--{$list['field_code']}-->" type="text/plain"><!--{$valueList[$list['field_code']]}--></textarea>
+			</div>
+		</div>
+		<script>
+			loadUeditor.loadUeditorSmall("<!--{$list['field_code']}-->", <!--{$list['width']}-->, <!--{$list['height']}-->);
+		</script>
+	</if>
+</volist>

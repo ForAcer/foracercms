@@ -1,0 +1,18 @@
+<if condition="$resourceList neq ''">
+	<ul>
+		<volist name="resourceList" id="list">
+			<if condition="$list['thumb_url'] neq ''">
+				<li bigUrl="<!--{$list['file_url']}-->"><img src="<!--{$list['thumb_url']}-->" title="<!--{$list['title']}-->" /></li>
+				<else />
+				<li bigUrl="<!--{$list['file_url']}-->"><img src="__COMMON__/images/filetype-large/<!--{$list['file_ext']}-->.jpg" title="<!--{$list['title']}-->" style="width:80px;height:80px;"/></li>
+			</if>
+		</volist>
+	</ul>
+	<else />
+	<ul style="padding:10px;">
+		暂无资源
+	</ul>
+</if>
+<div style="clear:both;width:100%;height:30px;overflow:hidden;">
+<!--{$pageBar}-->
+</div>

@@ -1,0 +1,105 @@
+<!-- #section:basics/sidebar -->
+<div id="sidebar" class="sidebar responsive" data-sidebar="true" data-sidebar-scroll="true" data-sidebar-hover="true">
+	<ul class="nav nav-list" style="top: 0px;">
+		<li class="<!--{$indexCurrent}-->">
+			<a href="<!--{:U('Admin/Index/index');}-->">
+				<i class="menu-icon fa fa-desktop"></i>
+							<span class="menu-text">
+								网站统计信息
+							</span>
+			</a>
+		</li>
+		<if condition="$moduleList neq ''">
+			<volist name="moduleList" id="list">
+				<if condition="$list['type'] eq 'list'">
+					<li <if condition="$list['code'] eq $current">class="open active"</if> >
+					<a href="#" class="dropdown-toggle">
+						<i class="menu-icon fa <!--{$list['ico']}-->"></i>
+						<span class="menu-text"><!--{$list['title']}--></span>
+						<b class="arrow fa fa-angle-down"></b>
+					</a>
+
+					<b class="arrow"></b>
+					<ul class="submenu">
+						<li <if condition="$activeLi eq $list['code'].'List'">class="active"</if>>
+						<if condition="$list['code'] eq 'cate'">
+							<a href="<!--{$site_url_admin}-->cateList?moduleId=<!--{$list['id']}-->&moduleCode=<!--{$list['code']}-->">
+								<i class="menu-icon fa fa-caret-right"></i>分类列表
+							</a>
+							<elseif condition="$list['code'] eq 'nav'" />
+							<a href="<!--{$site_url_admin}-->navList?moduleId=<!--{$list['id']}-->&moduleCode=<!--{$list['code']}-->">
+								<i class="menu-icon fa fa-caret-right"></i>导航列表
+							</a>
+							<elseif condition="$list['code'] eq 'other'" />
+							<a href="<!--{$site_url_admin}-->otherList?moduleId=<!--{$list['id']}-->&moduleCode=<!--{$list['code']}-->">
+								<i class="menu-icon fa fa-caret-right"></i>单项列表
+							</a>
+							<else />
+							<a href="<!--{$site_url_admin}-->listPage?moduleId=<!--{$list['id']}-->&moduleCode=<!--{$list['code']}-->">
+								<i class="menu-icon fa fa-caret-right"></i>内容列表
+							</a>
+						</if>
+						<b class="arrow"></b>
+						</li>
+						<li <if condition="$activeLi eq $list['code'].'Edit'">class="active"</if> >
+						<if condition="$list['code'] eq 'cate'">
+							<a href="<!--{$site_url_admin}-->cateEdit?moduleId=<!--{$list['id']}-->&moduleCode=<!--{$list['code']}-->">
+								<i class="menu-icon fa fa-caret-right"></i>添加分类
+							</a>
+							<elseif condition="$list['code'] eq 'nav'" />
+							<a href="<!--{$site_url_admin}-->navEdit?moduleId=<!--{$list['id']}-->&moduleCode=<!--{$list['code']}-->">
+								<i class="menu-icon fa fa-caret-right"></i>添加导航
+							</a>
+							<elseif condition="$list['code'] eq 'other'" />
+							<a href="<!--{$site_url_admin}-->otherEdit?moduleId=<!--{$list['id']}-->&moduleCode=<!--{$list['code']}-->">
+								<i class="menu-icon fa fa-caret-right"></i>添加单项
+							</a>
+							<else />
+							<a href="<!--{$site_url_admin}-->listEdit?moduleId=<!--{$list['id']}-->&moduleCode=<!--{$list['code']}-->">
+								<i class="menu-icon fa fa-caret-right"></i>添加内容</a>
+						</if>
+						<b class="arrow"></b>
+						</li>
+						<if condition="$list['is_cate'] eq 0">
+							<li <if condition="$activeLi eq $list['code'].'Cate'">class="active"</if> >
+							<a href="<!--{$site_url_admin}-->cateList?moduleId=<!--{$list['id']}-->&moduleCode=<!--{$list['code']}-->">
+								<i class="menu-icon fa fa-caret-right"></i>分类管理
+							</a>
+
+							<b class="arrow"></b>
+							</li>
+						</if>
+					</ul>
+					</li>
+					<else />
+					<li <if condition="$list['code'] eq $current">class="open active"</if> >
+					<a href="<!--{$site_url_admin}--><!--{$list['code']}-->?moduleId=<!--{$list['id']}-->">
+						<i class="menu-icon fa <!--{$list['ico']}-->"></i>
+						<span class="menu-text"><!--{$list['title']}--></span>
+					</a>
+					<b class="arrow"></b>
+					</li>
+				</if>
+			</volist>
+		</if>
+		<if condition="$adminLimit == 0">
+			<li class="<!--{$moduleCurrent}-->">
+				<a href="<!--{:U('Admin/Index/module');}-->">
+					<i class="menu-icon fa fa-adjust"></i>
+					<span class="menu-text"> 模块管理 </span>
+				</a>
+				<b class="arrow"></b>
+			</li>
+			<li class="<!--{$adminManageCurrent}-->">
+				<a href="<!--{:U('Admin/Index/admin');}-->">
+					<i class="menu-icon fa fa-users"></i>
+					<span class="menu-text"> 管理员管理 </span>
+				</a>
+				<b class="arrow"></b>
+			</li>
+		</if>
+	</ul>
+	<!-- /.nav-list -->
+</div>
+
+<!-- /section:basics/sidebar -->

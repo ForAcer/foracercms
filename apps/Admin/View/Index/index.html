@@ -1,0 +1,161 @@
+<include file="./Public/public_header" />
+<script type="text/javascript" src="__COMMON__/js/echarts.js"></script>
+<script type="text/javascript" src="__APP__/js/indexChart.js"></script>
+
+<div class="main-container container" id="main-container">
+	<include file="./Public/public_left" />
+	<div class="main-content">
+		<div class="main-content-inner">
+			<div class="breadcrumbs" id="breadcrumbs">
+				<ul class="breadcrumb">
+					<li>
+						<i class="ace-icon fa fa-home home-icon"></i>
+						<a href="#">后台首页</a>
+					</li>
+					<li>
+						网站总览
+					</li>
+				</ul>
+				<div class="nav-search" id="nav-search">
+				</div>
+			</div>
+			<div class="page-content" style="overflow: hidden;padding:10px;">
+				<div class="col-xs-12" style="padding:0px;">
+					<div class="row" style="margin:0px;">
+						<div class="form-horizontal table-bordered" style="border-radius:4px;min-height:600px;padding:0px 10px;overflow:hidden;">
+							<div class="userInfoArea">
+								<div class="widget-box transparent">
+									<div class="widget-header widget-header-flat">
+										<h4 class="widget-title lighter">
+											网站信息
+										</h4>
+									</div>
+									<div class="widget-body">
+										<div class="widget-main no-padding"></div>
+									</div>
+								</div>
+							</div>
+							<div class="viewArticleList">
+								<div class="widget-box transparent">
+									<div class="widget-header widget-header-flat">
+										<h4 class="widget-title lighter">
+											主题访问TOP10
+										</h4>
+									</div>
+									<div class="widget-body">
+										<div class="widget-main no-padding">
+											<table class="table table-bordered table-striped">
+												<thead class="thin-border-bottom">
+												<tr>
+													<th width="60%">
+														<i class="ace-icon fa fa-caret-right blue"></i>主题标题
+													</th>
+													<th width="15%">
+														<i class="ace-icon fa fa-caret-right blue"></i>主题作者
+													</th>
+													<th width="13%">
+														<i class="ace-icon fa fa-caret-right blue"></i>访问量
+													</th>
+
+												</tr>
+												</thead>
+
+												<tbody>
+												<volist name="topList" id="list">
+												<tr>
+													<td><a href="/List-msg-cid-<!--{$list['cate_id']}-->-id-<!--{$list['id']}-->.html" target="_blank"><!--{$list['title']}--></a></td>
+													<td><!--{$list['author']}--></td>
+													<td><!--{$list['view_count']}--></td>
+												</tr>
+												</volist>
+												</tbody>
+											</table>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="viewWebTime">
+								<div class="widget-box transparent">
+									<div class="widget-header widget-header-flat">
+										<h4 class="widget-title lighter">
+											访问时段
+										</h4>
+									</div>
+									<div class="widget-body">
+										<div class="widget-main no-padding">
+											<div style="width: 100%; height: 400px; overflow: hidden;" id="viewWebTimeChart"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="viewerAreaPart">
+								<div class="chartBox">
+									<div class="widget-box transparent">
+										<div class="widget-header widget-header-flat">
+											<h4 class="widget-title lighter">
+												用户性别
+											</h4>
+										</div>
+										<div class="widget-body">
+											<div class="widget-main no-padding">
+												<div style="width: 100%; height: 320px; overflow: hidden;" id="userGender"></div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="chartBox">
+									<div class="widget-box transparent">
+										<div class="widget-header widget-header-flat">
+											<h4 class="widget-title lighter">
+												用户年龄
+											</h4>
+										</div>
+										<div class="widget-body">
+											<div class="widget-main no-padding">
+												<div style="width: 100%; height: 320px; overflow: hidden;" id="userAge"></div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="chartBox">
+									<div class="widget-box transparent">
+										<div class="widget-header widget-header-flat">
+											<h4 class="widget-title lighter">
+												用户学历
+											</h4>
+										</div>
+										<div class="widget-body">
+											<div class="widget-main no-padding">
+												<div style="width: 100%; height: 320px; overflow: hidden;" id="userEdu"></div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="chartBox">
+									<div class="widget-box transparent">
+										<div class="widget-header widget-header-flat">
+											<h4 class="widget-title lighter">
+												用户区域
+											</h4>
+										</div>
+										<div class="widget-body">
+											<div class="widget-main no-padding">
+												<div style="width: 100%; height: 320px; overflow: hidden;" id="userArea"></div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script>
+	var indexchart = new IndexChart();
+	indexchart.init();
+</script>
+<include file="./Public/public_footer" />
+

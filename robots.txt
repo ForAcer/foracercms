@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+Disallow: ./apps/
+Disallow: ./config/
+Disallow: ./data/
+Disallow: ./runtime/
+Disallow: ./framework/
+Disallow: ./public/
+Disallow: ./system/
+Disallow: ./tpl/
+Disallow: .htaccess
+Disallow: phpinfo.php
+Disallow: index.php
+Disallow: composer.json

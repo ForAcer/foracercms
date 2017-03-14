@@ -1,0 +1,14 @@
+
+<ul>
+	<volist name="catelist" id="clist">
+		<li><a href="<!--{:list_url($clist)}-->"><h3><!--{$clist['title']}--></h3></a></li>
+	</volist>
+</ul>
+
+<ul>
+	<volist name="rslist" id="list">
+		<li><a href="<!--{:msg_url($list)}-->"><h3><!--{$list['title']}--></h3></a></li>
+	</volist>
+</ul>
+
+<!--{$pageBar}-->

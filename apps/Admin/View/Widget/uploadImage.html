@@ -1,0 +1,101 @@
+<div id="filelist">加载中,请稍候...</div>
+<br />
+
+<div id="container">
+	<button class="btn btn-xs btn-success" id="pickfiles">
+		<i class="ace-icon fa fa-folder-open-o bigger-110"></i>选择图片</i>
+	</button>
+	<button class="btn btn-xs btn-info" id="uploadfiles" style="margin-left:10px;">
+		<i class="ace-icon fa fa-cloud-upload bigger-110"></i>上传图片</i>
+	</button>
+</div>
+
+<br />
+<pre id="console"></pre>
+
+<script type="text/javascript" src="__COMMON__/js/plupload/plupload.full.min.js"></script>
+<script type="text/javascript">
+	// Custom example logic
+
+	var uploader = new plupload.Uploader({
+		runtimes : 'html5,flash,silverlight,html4',
+		browse_button : 'pickfiles', // you can pass in id...
+		container: document.getElementById('container'), // ... or DOM Element itself
+		url : U("Admin/UploadResource/uploadFile"),
+		flash_swf_url : '__COMMON__/js/plupload/Moxie.swf',
+		silverlight_xap_url : '__COMMON__/js/plupload/Moxie.xap',
+
+		filters : {
+			max_file_size : '20mb',
+			mime_types: [
+				{title : "Image files", extensions : "jpg,gif,png,bmp"},
+			]
+		},
+
+		init: {
+
+			PostInit: function() {
+				document.getElementById('filelist').innerHTML = '';
+				document.getElementById('uploadfiles').onclick = function() {
+					uploader.start();
+					return false;
+				};
+			},
+
+			FilesAdded: function(up, files) {
+				plupload.each(files, function(file) {
+					document.getElementById('filelist').innerHTML += '<div id="' + file.id + '">' + file.name + ' (' + plupload.formatSize(file.size) + ') <b></b></div>';
+				});
+			},
+
+			UploadProgress: function(up, file) {
+				document.getElementById(file.id).getElementsByTagName('b')[0].innerHTML = '<span>' + file.percent + "%</span>";
+			},
+
+			FileUploaded:function(up, file, responseObject)
+			{
+				//console.log(responseObject);
+				if(responseObject.status == 200)
+				{
+					document.getElementById(file.id).remove();
+				}
+			},
+
+			UploadComplete:function(up, files)
+			{
+				if(files.length <= 0)
+				{
+					ui.error("请选择文件！");
+					return false;
+				}
+				$.ajax({
+					url:U("Admin/UploadResource/selectImage"),
+					type:"get",
+					dataType:"html",
+					data:{
+						'inAjax' : 1
+					},
+					success:function(res)
+					{
+						$("#imageResourceList").empty();
+						$("#imageResourceList").html(res);
+					},
+					error:function(res)
+					{
+						return false;
+					},
+				});
+				ui.success("上传文件成功");
+			},
+
+			Error: function(up, err) {
+				ui.error(err.message);
+				return false;
+				document.getElementById('console').innerHTML += "\nError #" + err.code + ": " + err.message;
+			}
+		}
+	});
+
+	uploader.init();
+
+</script>

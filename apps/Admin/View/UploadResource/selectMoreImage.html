@@ -1,0 +1,117 @@
+<div style="width:600px;height:500px;overflow-x:hidden;overflow-y:auto;padding:10px;background: #fff;">
+	<!--{:W("Upload/uploadImage");}-->
+	<div class="add-image-list">
+		<ul></ul>
+		<div style="clear: both"></div>
+		<p style="float:right;">
+			<span>点击选择下面的图片</span>
+			<button id="noImageSelect" class="btn btn-xs btn-danger">
+				<i class="ace-icon fa fa-reply bigger-110"></i>
+				取消选择
+			</button>
+			<button class="btn btn-xs btn-success" id="yesImageSelect">
+				<i class="ace-icon fa fa-check-square-o bigger-110"></i>确认选择
+			</button></p>
+	</div>
+	<div class="resource-list" id="imageResourceList">
+		<include file="imageList" />
+	</div>
+</div>
+<input type="hidden" value="<!--{$imageId}-->" id="imageId" />
+<style>
+	.resource-list{padding:10px 0px;overflow:hidden;}
+	.resource-list ul li{float:left;margin-left:2px;padding:4px;background: #eee;margin-right:2px;margin-bottom:10px;cursor: pointer;}
+</style>
+<script>
+	$(function()
+	{
+		var imageId = $("#imageId").val();
+		$(".resource-list ul li").die('click').live('click', function()
+		{
+			var bigId = $(this).attr('bigId');
+			var bigUrl = $(this).attr('bigUrl');
+			var imgHtml = $(this).html();
+			var html = '<li bigId="'+bigId+'" bigUrl="'+bigUrl+'"><input type="hidden" name='+imageId+'[] value='+bigUrl+' />'+imgHtml+'<p id="'+bigId+'_thumb">删除</p></li>';
+
+			if($(".add-image-list ul li").length > 0)
+			{
+				$(".add-image-list ul li").each(function(index, item)
+				{
+					var liId = $(item).attr("bigId");
+					if(liId != bigId)
+					{
+						$(".add-image-list ul").append(html);
+						if($(".add-image-list ul li p").length > 0)
+						{
+							$(".add-image-list ul li p").die('click').live('click', function()
+							{
+								$(this).parent("li").remove();
+							});
+						}
+						return false;
+					}
+				});
+				return false;
+			}
+			else
+			{
+				$(".add-image-list ul").append(html);
+				if($(".add-image-list ul li p").length > 0)
+				{
+					$(".add-image-list ul li p").die('click').live('click', function()
+					{
+						$(this).parent("li").remove();
+					});
+				}
+				return false;
+			}
+		});
+
+		$("#noImageSelect").live("click", function()
+		{
+			ui.box.close();
+			return false;
+		});
+
+		$("#yesImageSelect").live("click", function()
+		{
+			var moreImageId = $("#imageId").val();
+			if($(".add-image-list ul li").length > 0)
+			{
+				var html = $(".add-image-list ul").html();
+				$("#"+moreImageId).empty();
+				$("#"+moreImageId).html(html);
+				ui.box.close();
+				return false;
+			}
+			else
+			{
+				return false;
+			}
+		});
+
+	});
+
+	function ajaxGet(url, showId, waitId, loading, display, callback)
+	{
+		var IMGDIR = COMMON_URL + '/images';
+		$("#"+showId).empty();
+		$("#"+showId).html('<span><img src="' + IMGDIR + '/loading.gif" class="vm">正在加载中...</span>');
+		$.ajax({
+			url:url,
+			dataType:"html",
+			type:"get",
+			data:{
+				'inAjax': 1
+			},
+			success:function(res)
+			{
+				$("#"+showId).empty();
+				$("#"+showId).html(res);
+			},
+			error:function(res){
+				return false;
+			}
+		});
+	}
+</script>

@@ -1,0 +1,238 @@
+<include file="./Public/public_header" />
+<script src="__COMMON__/js/mydate/WdatePicker.js"></script>
+<div class="main-container container" id="main-container">
+	<include file="./Public/public_left" />
+	<div class="main-content">
+		<div class="main-content-inner">
+			<div class="breadcrumbs" id="breadcrumbs">
+				<ul class="breadcrumb">
+					<li>
+						<i class="ace-icon fa fa-home home-icon"></i>
+						<a href="#">后台首页</a>
+					</li>
+					<li>
+						<!--{$moduleInfo['title']}-->
+					</li>
+					<li>
+						列表管理
+					</li>
+					<li>
+						<if condition="$rs['id'] eq ''"> 添加内容 <else /> 编辑内容</if>
+					</li>
+					<if condition="$rs['id'] neq ''">
+						<li>
+							<!--{$rs['title']}-->
+						</li>
+					</if>
+				</ul>
+				<div class="nav-search" id="nav-search">
+				</div>
+			</div>
+			<div class="page-content" style="min-height:600px;padding:10px 0px;">
+				<div class="col-xs-12">
+					<div class="row" style="margin:0px;">
+						<form method="post" name="listInfo" id="listInfo">
+							<div class="form-horizontal table-bordered">
+								<if condition="$rs['id'] eq ''">
+									<input type="hidden" name="module_id" value="<!--{$moduleId}-->" id="moduleId"/>
+									<else />
+									<input type="hidden" name="id" value="<!--{$rs['id']}-->" id="navId"/>
+									<input type="hidden" name="module_id" value="<!--{$rs['module_id']}-->" id="moduleId"/>
+								</if>
+								<input type="hidden" name="module_code" value="<!--{$current}-->" id="moduleCode"/>
+								<div class="tabbable" style="border:none;margin:0px;">
+									<ul class="nav nav-tabs padding-12 tab-color-blue background-blue" id="myTab4" style="top:0px;border:none;">
+										<li class="active">
+											<a data-toggle="tab" href="#listcontent" aria-expanded="true">主题内容</a>
+										</li>
+
+										<li class="">
+											<a data-toggle="tab" href="#otherSet" aria-expanded="true">其他设置</a>
+										</li>
+									</ul>
+
+									<div class="tab-content" style="padding:10px;border:none;">
+										<div id="listcontent" class="tab-pane active">
+											<div class="form-group">
+												<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 标题： </label>
+
+												<div class="col-sm-10">
+													<input type="text" id="title" name="title" value="<!--{$rs['title']}-->" placeholder="标题" class="col-sm-12">
+												</div>
+											</div>
+
+											<div class="form-group">
+												<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 分类类型： </label>
+
+												<div class="col-sm-3">
+													<select id="cateId" class="form-control" name="cate_id">
+														<if condition="$parentCateList neq ''">
+															<volist name="parentCateList" id="list">
+																<option <if condition="$list['id'] eq $rs['cate_id']"> selected</if>
+																value="<!--{$list['id']}-->"><!--{$list['title']}--></option>
+																<if condition="$data[$list['id']] neq ''">
+																	<volist name="data[$list['id']]" id="sonlist">
+																		<option <if condition="$sonlist['id'] eq $rs['cate_id']"> selected</if> value="<!--{$sonlist['id']}-->">&nbsp;&nbsp;&nbsp;&nbsp;<!--{$sonlist['title']}--></option>
+																		<catelist id="vlist" code="$sonlist['code']">
+																			<option <if condition="$vlist['id'] eq $rs['cate_id']"> selected </if> value="<!--{$vlist['id']}-->">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<!--{$vlist['title']}--></option>
+																		</catelist>
+																	</volist>
+																</if>
+															</volist>
+															<else />
+															<option value="">暂无分类</option>
+														</if>
+													</select>
+												</div>
+												<div class="col-sm-3">
+													<ul class="listThreeAttr" id="listThreeAttr">
+														<li><label>
+															<input name="is_top" id="is_top" type="checkbox" <if condition="$rs['is_top'] eq 1"> value="1" checked <else />  value="0" </if>class="ace">
+															<span class="lbl"> 置顶</span>
+														</label></li>
+														<li><label>
+															<input name="is_vouch" id="is_vouch" type="checkbox" <if condition="$rs['is_vouch'] eq 1"> value="1" checked <else />  value="0" </if> class="ace">
+															<span class="lbl"> 推荐</span>
+														</label></li>
+														<li><label>
+															<input name="is_best" id="is_best" type="checkbox" <if condition="$rs['is_best'] eq 1"> value="1" checked <else />  value="0" </if>class="ace">
+															<span class="lbl"> 精华</span>
+														</label></li>
+													</ul>
+												</div>
+											</div>
+
+											<!--{:W("Admin/GetNav/listNav", array('link_url' => $rs['link_url']));}-->
+
+											<div class="form-group">
+												<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 主题单图： </label>
+
+												<div class="col-sm-10">
+													<input type="text" id="picUrl" value="<!--{$rs['pic_url']}-->" name="pic_url" placeholder="主题单图" class="col-sm-10">
+													<button class="btn btn-xs btn-info" type="button" style="padding-top:3px;" imageId="picUrl" uploadType="imageOne" id="insertImage">
+														<i class="ace-icon fa fa-pencil-square-o bigger-110"></i> 选择图片
+													</button>
+												</div>
+											</div>
+
+											<div class="form-group">
+												<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 主题简述： </label>
+
+												<div class="col-sm-10">
+													<textarea type="text" id="note" name="note"><!--{$rs['note']}--></textarea>
+												</div>
+											</div>
+
+											<!--{:W("Admin/ExtField/ExtFieldList", array('data'=> $moduleFieldList, 'valueList'=> $valueArr));}-->
+										</div>
+
+										<div id="otherSet" class="tab-pane">
+
+											<div class="form-group">
+												<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 标识串： </label>
+												<div class="col-sm-10">
+													<input type="text" id="code" value="<!--{$rs['code']}-->" name="code" placeholder="标识串" class="col-sm-12" />
+												</div>
+											</div>
+
+											<div class="form-group">
+												<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 模版名称： </label>
+												<div class="col-sm-10">
+													<input type="text" id="tpl_msg" value="<!--{$rs['tpl_msg']}-->" name="tpl_msg" placeholder="模版名称" class="col-sm-12" />
+												</div>
+											</div>
+
+											<div class="form-group">
+												<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> SEO标题： </label>
+												<div class="col-sm-10">
+													<input type="text" id="seoTitile" value="<!--{$rs['seo_title']}-->" name="seo_title" placeholder="SEO标题" class="col-sm-12" />
+												</div>
+											</div>
+
+											<div class="form-group">
+												<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> SEO关键词： </label>
+												<div class="col-sm-10">
+													<input type="text" id="seoKeyword" value="<!--{$rs['seo_keyword']}-->" name="seo_keyword" placeholder="SEO关键词" class="col-sm-12" />
+												</div>
+											</div>
+
+											<div class="form-group">
+												<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> SEO描述： </label>
+												<div class="col-sm-10">
+													<input type="text" id="seoDesc" value="<!--{$rs['seo_desc']}-->" name="seo_desc" placeholder="SEO描述" class="col-sm-12" />
+												</div>
+											</div>
+
+											<div class="form-group">
+												<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 浏览统计： </label>
+												<div class="col-sm-10">
+													<input type="text" id="view_count" value="<!--{$rs['view_count']}-->" name="view_count" placeholder="浏览统计" class="col-sm-12" />
+												</div>
+											</div>
+
+											<div class="form-group">
+												<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 点赞数： </label>
+												<div class="col-sm-10">
+													<input type="text" id="good_count" value="<!--{$rs['good_count']}-->" name="good_count" placeholder="点赞数" class="col-sm-12" />
+												</div>
+											</div>
+
+											<div class="form-group">
+												<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 差评数： </label>
+												<div class="col-sm-10">
+													<input type="text" id="bad_count" value="<!--{$rs['bad_count']}-->" name="bad_count" placeholder="差评数" class="col-sm-12" />
+												</div>
+											</div>
+
+											<div class="form-group">
+												<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 主题作者： </label>
+												<div class="col-sm-10">
+													<input type="text" id="author" value="<!--{$rs['author']}-->" name="author" placeholder="主题作者" class="col-sm-12" />
+												</div>
+											</div>
+
+											<div class="form-group">
+												<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 发布时间： </label>
+												<div class="col-sm-10">
+													<if condition="$rs['id'] eq ''">
+														<input type="text" id="ptime" value="<!--{:date('Y-m-d H:i:s',time());}-->" name="ptime" placeholder="发布时间" class="col-sm-12" onClick="WdatePicker({dateFmt:'yyyy-MM-dd HH:mm:ss'})" />
+														<else />
+														<input type="text" id="ptime" value="<!--{:date('Y-m-d H:i:s',$rs['ctime']);}-->" name="ptime" placeholder="发布时间" class="col-sm-12" onClick="WdatePicker({dateFmt:'yyyy-MM-dd HH:mm:ss'})" />
+													</if>
+												</div>
+											</div>
+
+											<div class="form-group">
+												<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 主题排序： </label>
+												<div class="col-sm-8">
+													<input type="text" id="sort" value="<!--{$rs['sort']}-->" name="sort" placeholder="不填默认为0" class="col-sm-10">
+												</div>
+											</div>
+
+										</div>
+									</div>
+								</div>
+								<div class="form-group">
+									<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> </label>
+									<div class="col-sm-10">
+										<p id="submitListEdit" class="btn btn-xs btn-info">
+											<i class="ace-icon fa fa-check icon-on-right"></i> 确认提交
+										</p>
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script>
+	var listEdit = new ListEdit();
+	listEdit.init();
+	var loadEditor = new UeditorCommon();
+	loadEditor.loadUeditorSmall("note", 770, 150);
+</script>
+<include file="./Public/public_footer" />
+

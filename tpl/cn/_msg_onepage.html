@@ -1,0 +1,8 @@
+
+<ul>
+	<volist name="catelist" id="clist">
+		<li><a href="<!--{:msg_url($clist)}-->"><h3 <if condition="$clist['id'] eq $listId"> style="color:red;"</if> ><!--{$clist['title']}--></h3></a></li>
+	</volist>
+</ul>
+
+<!--{$rs['title']}-->
