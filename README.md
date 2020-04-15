@@ -1,5 +1,4 @@
-# PHP Cms
-# ForAcerCms第一版本简介 
+## ForAcerCms简介 
 
 thinkphp(3.2.3) + mysql(5.5.36)
 
